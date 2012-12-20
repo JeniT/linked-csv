@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linked CSV</title>
+    <meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
+    <script class='remove'>
+      var respecConfig = {
+          specStatus: "unofficial",
+          shortName:  "linked-csv",
+          editors: [
+                {   name:       "Jeni Tennison",
+                    url:        "http://www.jenitennison.com/blog/",
+                    company:    "Open Data Institute",
+                    companyURL: "http://theodi.org/" }
+          ],
+          // previousMaturity: "FPWD",
+          // previousPublishDate:  "2010-03-15",
+          // wg:           "Open Data Institute",
+          // wgURI:        "http://theodi.org",
+          // wgPublicList: "public-animals",
+          // wgPatentURI:  "http://www.w3.org/2004/01/pp-impl/424242/status",
+      };
+    </script>
+    <script src='http://www.w3.org/Tools/respec/respec-w3c-common' class='remove'></script>
+  </head>
+  <body>
+    <section id='abstract'>
+      <p>
+        Many open data sets are essentially tables, or sets of tables, which follow the same regular structure. This document describes a set of conventions for CSV files that enable them to be linked together and to be interpreted as RDF.
+      </p>
+    </section>
+    
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        The requirements on which this format is based are:
+      </p>
+      <ul>
+        <li>the format must be valid CSV according to [[!RFC4180]]</li>
+        <li>every valid CSV file must be a valid linked CSV file</li>
+        <li>URIs should be used as identifiers</li>
+        <li>the format must be at least as expressive as JSON</li>
+        <li>it must be possible to zip up packages of linked CSV files for bulk downloads</li>
+        <li>it must be possible to publish individual linked CSV files, not just packages</li>
+        <li>files must carry their own metadata so that they are self-contained</li>
+      	<li>it must be simple to filter out metadata by ignoring or hiding particular columns and/or rows</li>
+        <li>aside from decompressing packages, applications should not need to parse more than one format (eg XML or JSON in addition to CSV)</li>
+        <li>it should be possible to associate provenance information with pieces of data represented in the format</li>
+        <li>it must be possible to break up large tables into smaller subsets</li>
+        <li>it must be possible for datasets to be built from linked CSV published by different websites</li>
+        <li>the format must be mappable to JSON</li>
+        <li>the format must be mappable to XML [[XML11]]</li>
+        <li>the format must be mappable to RDF [[RDF-PRIMER]]</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Structure</h2>
+      <p>
+        The structure of a CSV file is a header followed by a number of records. The <dfn>header</dfn> is the first line of the file, while the remaining lines are the <dfn title="record">records</dfn>. Both the header and the records contain <dfn>fields</dfn> separated by commas. These terms are used as defined in [[RFC4180]]. Within this document, a <code>column</code> is a set of fields which are at the same index within their respective rows and the <dfn>column name</dfn> is the value of the field in the header for that column. For example, the following is a valid CSV file which lists country codes and names:
+      </p>
+      <pre class="example highlight">
+country,name
+AD,Andorra
+AF,Afghanistan
+AI,Anguilla
+AL,Albania
+      </pre>
+      <p>
+        All valid CSV files are valid linked CSV files, so the above example is also a valid linked CSV file. It has four records and two columns, whose names are <code>country</code> and <code>name</code>.
+      </p>
+      <p>
+        Valid CSV files MUST use <code>CRLF</code> to indicate the ends of lines (and thus the separation of rows). Linked CSV parsers SHOULD provide a warning if <code>CR</code> or <code>LF</code> is used for line endings, and SHOULD recover by parsing the CSV file with those line endings.
+      </p>
+      <p class="note">
+        Spreadsheet programs such as Excel or OpenOffice Calc typically use the line ending used by the platform on which they are deployed (eg simply <code>LF</code> on Mac OS X). Allowing other line endings for linked CSV is intended to make it easier to create such documents within spreadsheet programs.
+      </p>
+      <p>
+        The aim of processing a linked CSV file is to generate information about a set of entities. An <dfn>entity</dfn> may be represented internally by the application as an object or a resource. Each entity has a number of <dfn title="property">properties</dfn>, which may have one or more <dfn title="value">values</dfn>.
+      </p>
+      <p>
+        Records within a linked CSV file may be of two different types: <a title="prolog line">prolog lines</a> (see <a href="#prolog-lines" class="sectionRef"></a>) and <a title="data line">data lines</a>. Data lines can only come after the last prolog line, if there is one. A <dfn>data line</dfn> is a line that contains data about an entity. A single entity may be described across multiple data lines. For each data line describing an entity, each value within the line corresponds to the value of a property of that entity (the property being named through the corresponding header).
+      </p>
+      <p>
+        The JSON version of this file, as defined in <a href="#json-mapping" class="sectionRef"></a>, is:
+      </p>
+      <pre class="json example highlight">
+[{
+  "country": "AD",
+  "name": "Andorra"
+},{
+  "country": "AF",
+  "name": "Afghanistan"
+},{
+  "country": "AI",
+  "name": "Anguilla"
+},{
+  "country": "AL",
+  "name": "Albania"
+}]
+      </pre>
+      <p>
+        Linked CSV files must be encoded as UTF-8. For compatibility with other formats, publishers are encouraged to avoid characters in property names that cannot be used in variable names within common programming languages or element/attribute names in XML, such as periods (<code>.</code>) and whitespace. Whitespace within fields within linked CSV files is not normalised. Fields which are completely empty are ignored.
+      </p>
+
+      <section>
+        <h3>Identifiers</h3>
+        <p>
+          Linked CSV is built around the concept of using URIs to name things. Every record, column, and even slices of data, in a linked CSV file is addressable using <a href="http://tools.ietf.org/html/draft-hausenblas-csv-fragment-00">URI Identifiers for the text/csv Media Type</a>. For example, if the linked CSV file is accessed at <code>http://example.org/countries</code>, the first <a>record</a> in the CSV file above, which happens to be the first <a>data line</a> within the linked CSV file (which describes Andorra) is addressable with the URI:
+        </p>
+        <pre>http://example.org/countries#row:0</pre>
+        <p>
+          However, this addressing merely identifies the records within the linked CSV file, not the <a title="entity">entities</a> that the record describes. This distinction is important for two reasons:
+        </p>
+        <ul>
+          <li>a single entity may be described by multiple records within the linked CSV file</li>
+          <li>addressing entities and records separately enables us to make statements about the source of the information within a record</li>
+        </ul>
+        <p>
+          By default, each data line describes an <a>entity</a> and each entity is described by a single data line, and there is no way to address the entities. However, adding a <code>$id</code> column enables entities to be given identifiers. These identifiers are always URIs, and they are interpreted relative to the location of the linked CSV file. The <code>$id</code> column may be positioned anywhere but by convention it should be the first column. For example:
+        </p>
+        <pre class="example highlight">
+$id,country,name
+#AD,AD,     Andorra
+#AD,AD,     Principality of Andorra
+#AF,AF,     Afghanistan
+#AF,AF,     Islamic Republic of Afghanistan
+        </pre>
+        <p class="note">
+          For the purpose of clarity within this document, whitespace has been added to this and the remainder of the examples so that headers and values line up correctly. Whitespace within linked CSV files is normally significant.
+        </p>
+        <p class="note">
+          The prefix <code>$</code> is used because the prefix <code>@</code> is interpreted as indicating a formula when entered into spreadsheet programs such as Excel.
+        </p>
+        <p>
+          This linked CSV file contains two entities, which have the identifiers <code>http://example.org/countries#AD</code> and <code>http://example.org/countries#AF</code>. The first is described by the first two data lines and the second by the next two. The JSON generated for this file would be:
+        </p>
+        <pre class="json example highlight">
+[{
+  "@id": "http://example.org/countries#AD",
+  "country": "AD",
+  "name": [ "Andorra", "Principality of Andorra" ]
+},{
+  "@id": "http://example.org/countries#AF",
+  "country": "AF",
+  "name": [ "Afghanistan", "Islamic Republic of Afghanistan" ]
+}]
+        </pre>
+      	<p>
+      		and the RDF would be:
+      	</p>
+      	<pre class="turtle example highlight">
+@prefix rel: &lt;http://www.iana.org/assignments/relation/&gt;
+PREFIX : &lt;http://example.org/countries#&gt;
+&lt;http://example.org/countries#AD&gt;
+	rel:describedby &lt;http://example.org/countries#row:0&gt; ;
+	:country "AD" ;
+	:name "Andorra" , "Principality of Andorra" ;
+	.
+
+&lt;http://example.org/countries#AF&gt;
+	rel:describedby &lt;http://example.org/countries#row:1&gt; ;
+	:country "AF" ;
+	:name "Afghanistan" , "Islamic Republic of Afghanistan" ;
+	.
+      	</pre>
+        <p>
+          As shown by this example, when multiple data lines describe a single entity, a given property takes only the distinct values within the column for that entity rather than being duplicated. However, the file can be made shorter if it doesn't contain duplicates in the first case; the following CSV is equivalent:
+        </p>
+        <pre class="example highlight">
+$id,country,name
+#AD,AD,     Andorra
+#AD,,       Principality of Andorra
+#AF,AF,     Afghanistan
+#AF,,       Islamic Republic of Afghanistan
+        </pre>
+
+        <section>
+          <h4>Interpreting Identifiers</h4>
+          <p>
+            By default, properties within the linked CSV file are assumed to apply to the thing described by the resource located by the URI identifier. For example, if the file contained identifier URIs that were Wikipedia pages, as in
+          </p>
+          <pre class="example highlight">
+$id,                                     country,name
+http://en.wikipedia.org/wiki/Andorra,    AD,     Andorra
+http://en.wikipedia.org/wiki/Andorra,    AD,     Principality of Andorra
+http://en.wikipedia.org/wiki/Afghanistan,AF,     Afghanistan
+http://en.wikipedia.org/wiki/Afghanistan,AF,     Islamic Republic of Afghanistan
+          </pre>
+          <p>
+            applications should interpret the properties <code>country</code> and <code>name</code> to apply to the countries described by those Wikipedia pages, not the Wikipedia pages themselves. In general this distinction does not matter, but it may do when using linked CSV to describe resources that <em>are</em> available on the web. Individual properties may be used differently, and apply to the content found at the referenced URI; how they are interpreted should be incorporated into the property documentation.
+          </p>
+        </section>
+      </section>
+
+      <section id="property-types">
+        <h3>Property Types and Languages</h3>
+        <p>
+          In this simple CSV example, all the values are strings, which works fine for country codes and names. We will now introduce a separate file, <code>http://example.org/af-population</code>, which initially looks like:
+        </p>
+        <pre class="example highlight">
+country,year,population
+AF,     1960,9616353
+AF,     1961,9799379
+AF,     1962,9989846
+AF,     1963,10188299
+        </pre>
+        <p>
+          In this example, the property <code>year</code> holds years and the property <code>population</code> holds an integer. To indicate the types of these properties, we can add information to the column name. The column names in the header may be in one of three basic forms:
+        </p>
+        <dl>
+          <dt><code><var>property</var>^^<var>type</var></code></dt>
+          <dd>
+            This is used to indicate the datatype of the values in the column. The type must be one of:
+            <ul>
+              <li><code>string</code></li>
+              <li><code>integer</code></li>
+              <li><code>decimal</code></li>
+              <li><code>double</code></li>
+              <li><code>boolean</code> (<code>true</code> or <code>false</code>)</li>
+              <li><code>time</code> &mdash; values of this type can be any of the date/time syntaxes supported by XML Schema, namely <code>gYear</code>, <code>gMonth</code>, <code>gDay</code>, <code>gYearMonth</code>, <code>gMonthDay</code>, <code>date</code>, <code>time</code>, <code>dateTime</code></li>
+            </ul>
+          </dd>
+          <dt><code><var>property</var>@<var>language</var></code></dt>
+          <dd>
+            This is used to indicate that the column contains values for the named property in a particular language. The language must be a valid language code.
+          </dd>
+          <dt><code>$<var>property</var></code></dt>
+          <dd>
+            This is used to indicate that the column contains references to entities described elsewhere. Unless the definition of the property indicates otherwise, applications should assume that these URIs are for landing pages that describe the entities relating to these properties.
+          </dd>
+        </dl>
+        <p class="issue">
+          An alternative design would be to use <a>prolog lines</a> to indicate types/languages for the values in the column. Perhaps that would be better than messing with the column names?
+        </p>
+        <p>
+          If there is no type indication in the header for the column, the default type for a particular value depends on the syntax of the value, as follows:
+        </p>
+        <ul>
+          <li>values matching XML Schema date/time syntax (aside from <code>xs:gYear</code>) are assumed to be date/time values</li>
+          <li>values matching <code>[0-9]+</code> are assumed to be integers</li>
+          <li>values matching <code>[0-9]+\.[0-9]+</code> are assumed to be decimal numbers</li>
+          <li>values matching <code>[0-9]+(\.[0-9]+)?[eE][-+][0-9]+(\.[0-9]+)?</code> are assuming to be floating point numbers</li>
+          <li>the value <code>true</code> is assumed to be the boolean value true, and the value <code>false</code> the boolean value false</li>
+          <li>otherwise, the value is assumed to be a string</li>
+        </ul>
+        <p class="issue">
+          Could enable quoting of values using <code>"""..."""</code> delimited values within the CSV?
+        </p>
+        <p>
+          In the example above, we can annotate the column names to indicate the types of the properties that are created. We can also change the <code>country</code> column to use the Wikipedia URIs that we previously used for the countries, and indicate that this is being done by prefixing the name of the property with <code>$</code>. Since the population figures are all syntactically integers, there is no need to annotate that column with a type, but such an annotation can be added for clarity:
+        </p>
+        <pre class="example highlight">
+<strong>$</strong>country,                                year<strong>^^time</strong>,population<strong>^^integer</strong>
+http://en.wikipedia.org/wiki/Afghanistan,1960,      9616353
+http://en.wikipedia.org/wiki/Afghanistan,1961,      9799379
+http://en.wikipedia.org/wiki/Afghanistan,1962,      9989846
+http://en.wikipedia.org/wiki/Afghanistan,1963,      10188299
+        </pre>
+        <p>
+          Conversion to JSON cannot preserve all this information as it does not support date/time datatypes. The resulting data would map the years as integers:
+        </p>
+        <pre class="json example highlight">
+[{
+  "country": "http://en.wikipedia.org/wiki/Afghanistan",
+  "year": 1960,
+  "population": 9616353
+}, {
+  "country": "http://en.wikipedia.org/wiki/Afghanistan",
+  "year": 1961,
+  "population": 9799379
+}, {
+  "country": "http://en.wikipedia.org/wiki/Afghanistan",
+  "year": 1962,
+  "population": 9989846
+}, {
+  "country": "http://en.wikipedia.org/wiki/Afghanistan",
+  "year": 1963,
+  "population": 10188299
+}]
+        </pre>
+        <p>
+          The mapping to RDF can preserve the datatype information:
+        </p>
+        <pre class="example highlight">
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+@prefix rel: &lt;http://www.iana.org/assignments/relation/&gt;
+@prefix : &lt;http://example.org/af-population#&gt;
+
+[ rel:describedby &lt;http://example.org/af-population#row:0&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1960"^^xsd:gYear ;
+  :population 9616353 ]
+
+[ rel:describedby &lt;http://example.org/af-population#row:1&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1961"^^xsd:gYear ;
+  :population 9799379 ]
+
+[ rel:describedby &lt;http://example.org/af-population#row:2&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1962"^^xsd:gYear ;
+  :population 9989846 ]
+
+[ rel:describedby &lt;http://example.org/af-population#row:3&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1963"^^xsd:gYear ;
+  :population 10188299 ]
+        </pre>
+        <p class="note">
+          In generating the Turtle, the syntax of the values in the <code>year^^time</code> column is used to determine what kind of date/time value each value should be mapped on to. Without the <code>^^time</code> annotation, the values would be mapped to integers.
+        </p>
+        <p>
+          The file that contains the country details can also be expanded to include the names of the countries in other languages:
+        </p>
+        <pre class="example highlight">
+$id,                                     country,name<strong>@en</strong>,                        name<strong>@fr</strong>
+http://en.wikipedia.org/wiki/Andorra,    AD,     Andorra,                        Andorre
+http://en.wikipedia.org/wiki/Andorra,    ,       Principality of Andorra,
+http://en.wikipedia.org/wiki/Afghanistan,AF,     Afghanistan,                    Afghanistan
+http://en.wikipedia.org/wiki/Afghanistan,,       Islamic Republic of Afghanistan,
+        </pre>
+        <p>
+          In this case, the value of the <code>name</code> property for each entity is the result of combining the values in the two columns <code>name@en</code> and <code>name@fr</code>. The JSON would look like:
+        </p>
+        <pre class="json example highlight">
+[{
+  "@id": "http://example.org/countries#AD",
+  "country": "AD",
+  "name": [{
+    "value": "Andorra",
+    "lang": "en"
+  }, {
+    "value": "Andorre",
+    "lang": "fr"
+  }, {
+    "value": "Principality of Andorra",
+    "lang": "en"
+  }]
+},{
+  "@id": "http://example.org/countries#AF",
+  "country": "AF",
+  "name": [{
+    "value": "Afghanistan",
+    "lang": "en"
+  }, {
+    "value": "Afghanistan",
+    "lang": "fr"
+  }, {
+    "value": "Islamic Republic of Afghanistan",
+    "lang": "en"
+  }]
+}]
+        </pre>
+        <p>
+          The Turtle would look like:
+        </p>
+        <pre class="turtle example highlight">
+@prefix rel: &lt;http://www.iana.org/assignments/relation/&gt;
+@prefix : &lt;http://example.org/af-population#&gt;
+
+&lt;http://en.wikipedia.org/wiki/Andorra&gt;
+  rel:describedby 
+    &lt;http://example.org/countries#row:0&gt;, 
+    &lt;http://example.org/countries#row:1&gt; ;
+  :country "AD" ;
+  :name "Andorra"@en, "Principality of Andorra"@en, "Andorre"@fr ;
+  .
+
+&lt;http://en.wikipedia.org/wiki/Afghanistan&gt;
+  rel:describedby 
+    &lt;http://example.org/countries#row:2&gt;, 
+    &lt;http://example.org/countries#row:3&gt; ;
+  :country "AF" ;
+  :name "Afghanistan"@en , "Islamic Republic of Afghanistan"@en , "Afghanistan"@fr ;
+  .
+        </pre>
+        <p class="issue">
+          Could add handling of columns with names like <code>author[0]</code>, <code>author[1]</code> to create lists. Not sure if that's overly complicated.
+        </p>
+      </section>
+
+      <section id="prolog-lines">
+        <h3>Prolog Lines</h3>
+        <p>
+          A linked CSV file can contain any number of prolog lines. <dfn title="prolog line">Prolog lines</dfn> describe additional processing of the linked CSV file, usually related to the file or some portion or the file, or related to some or all of the columns. Prolog lines can only be present if there is a column named <code>#</code>; any record that has a value in that column is a prolog line, and the value for that column indicates how the line should be interpreted:
+        </p>
+        <dl>
+          <dt><code>meta</code></dt>
+          <dd>This value indicates that the line provides metadata about the linked CSV file or rows within it</dd>
+          <dt><code>url</code></dt>
+          <dd>This value indicates that the line provides global URIs for the properties in each column</dd>
+          <dt><code>see</code></dt>
+          <dd>This value indicates that the line provides details of additional resources that may provide information about some or all of the entities whose identifiers are given within the column</dd>
+        	<dt><em>empty</em></dt>
+        	<dd>Having no value in the <code>#</code> column indicates that the line is a <a>data line</a> rather than a <a>prolog line</a></dd>
+        </dl>
+      	<p>
+      		Prolog lines must all be at the start of a linked CSV file. Any prolog lines that appear after the first <a>data line</a> must be ignored by processors.
+      	</p>
+        <p class="note">
+          Ignoring prolog lines that appear after the first data line aids streaming processing of linked CSV files, the hiding of prolog information within spreadsheet applications, and ease of reading for humans.
+        </p>
+
+        <section id="self-describing">
+          <h4>Self Description</h4>
+          <p>
+            Linked CSV files should be self-describing. They should include important metadata about the source of the data they contain, their license conditions, and links to other files that contain non-essential supplementary information. Although the file might be described within other files, and metadata might be made available through the HTTP headers, there is no guarantee that this metadata will be available as the data is passed around.
+          </p>
+          <p>
+            To provide metadata about the linked CSV document, the file has to contain a <code>#</code> column. Prolog lines that contain the value <code>meta</code> in the <code>#</code> column provide metadata about the file or records within the file. If there is a <code>$id</code> column, the value within that column indicates what the metadata is about: an empty value (or a missing <code>$id</code> column) indicates the metadata is associated with the file as a whole.
+          </p>
+          <p>
+            The remainder of a metadata line should hold two or three fields, in order:
+          </p>
+          <ol>
+            <li>a header, in the same syntax used for column headers and interpreted in the same way to provide properties about the entity indicated in the <code>$id</code> column</li>
+            <li>a value, the value of the property for that entity</li>
+            <li>optionally, a URI that is the global identifier for the property</li>
+          </ol>
+          <p>
+            In our example, the <code>http://example.org/af-population</code> file may be part of a series of files available for different countries, and the metadata provide a pointer to an index document (<code>http://example.org/populations</code>) and to a license for the file: 
+          </p>
+          <pre class="example highlight">
+<strong>#,   $id,</strong>$country,                                year^^time,                                       population^^integer
+<strong>meta,,   $index,                                  populations,
+meta,,   $license,                                http://creativecommons.org/publicdomain/mark/1.0/,</strong>
+,    ,   http://en.wikipedia.org/wiki/Afghanistan,1960,                                             9616353
+,    ,   http://en.wikipedia.org/wiki/Afghanistan,1961,                                             9799379
+,    ,   http://en.wikipedia.org/wiki/Afghanistan,1962,                                             9989846
+,    ,   http://en.wikipedia.org/wiki/Afghanistan,1963,                                             10188299
+          </pre>
+          <p>
+            In this example, none of the remaining data lines have identifiers themselves. The corresponding JSON would be:
+          </p>
+          <pre class="json example highlight">
+  [{
+  <strong>  "@id": "http://example.org/af-population",
+    "index": "http://example.org/populations",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/"</strong>
+  }, {
+    "country": "http://en.wikipedia.org/wiki/Afghanistan",
+    "year": 1960,
+    "population": 9616353
+  }, {
+    "country": "http://en.wikipedia.org/wiki/Afghanistan",
+    "year": 1961,
+    "population": 9799379
+  }, {
+    "country": "http://en.wikipedia.org/wiki/Afghanistan",
+    "year": 1962,
+    "population": 9989846
+  }, {
+    "country": "http://en.wikipedia.org/wiki/Afghanistan",
+    "year": 1963,
+    "population": 10188299
+  }]
+          </pre>
+          <p>
+            The corresponding RDF would be:
+          </p>
+          <pre class="example highlight">
+  @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+  @prefix rel: &lt;http://www.iana.org/assignments/relation/&gt;
+  @prefix : &lt;http://example.org/af-population#&gt;
+
+  <strong>&lt;&gt;
+    rel:describedby 
+      &lt;http://example.org/af-population#row:0&gt;, 
+      &lt;http://example.org/af-population#row:1&gt; ;
+    :index &lt;populations&gt; ;
+    :license &lt;http://creativecommons.org/publicdomain/mark/1.0/&gt; ;
+    .</strong>
+
+  [ rel:describedby &lt;http://example.org/af-population#row:2&gt; ;
+    :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+    :year "1960"^^xsd:gYear ;
+    :population 9616353 ]
+
+  [ rel:describedby &lt;http://example.org/af-population#row:3&gt; ;
+    :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+    :year "1961"^^xsd:gYear ;
+    :population 9799379 ]
+
+  [ rel:describedby &lt;http://example.org/af-population#row:4&gt; ;
+    :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+    :year "1962"^^xsd:gYear ;
+    :population 9989846 ]
+
+  [ rel:describedby &lt;http://example.org/af-population#row:5&gt; ;
+    :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+    :year "1963"^^xsd:gYear ;
+    :population 10188299 ]
+          </pre>
+        </section>
+
+        <section>
+          <h4>Global Property Identifiers</h4>
+          <p>
+            When a large dataset is split across multiple files, as in the example here where the set of population figures is split across multiple country-specific files such as <code>http://example.org/af-population</code>, it is useful to be able to indicate when properties that have the same short name across those files mean the same thing.
+          </p>
+          <p>
+            To facilitate this, URL prolog lines can indicate global identifiers for the properties. The URL only has to be given once per property: only the first column that specifies the URL for a property is considered when a single property is split across multiple columns. For example, if we wanted to indicate that the <code>country</code> property within the <code>af-population</code> file means the same as the <code>country</code> property within the <code>ad-population</code> file, we could associate them both with the same URL by adding a URL prolog line in both files:
+          </p>
+          <pre class="example highlight">
+#,  $country,                                 year^^time,                            population^^integer
+<strong>url,http://example.org/def/statistics#country,http://example.org/def/statistics#year,http://example.org/def/statistics#population</strong>
+,   http://en.wikipedia.org/wiki/Afghanistan, 1960,                                  9616353
+,   http://en.wikipedia.org/wiki/Afghanistan, 1961,                                  9799379
+,   http://en.wikipedia.org/wiki/Afghanistan, 1962,                                  9989846
+,   http://en.wikipedia.org/wiki/Afghanistan, 1963,                                  10188299
+          </pre>
+          <p class="issue">
+            Could make this easier by supporting "CURIEs" within the URL prolog lines, so that people don't have to use full URLs when they are using common vocabularies such as RDF, RDFS or schema.org.
+          </p>
+          <p>
+            The resulting RDF would use these URLs for the <code>country</code>, <code>year</code> and <code>population</code> properties:
+          </p>
+          <pre class="example highlight">
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+@prefix rel: &lt;http://www.iana.org/assignments/relation/&gt;
+<strong>@prefix : &lt;http://example.org/def/statistics#&gt;</strong>
+
+[ rel:describedby &lt;http://example.org/af-population#row:2&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1960"^^xsd:gYear ;
+  :population 9616353 ]
+
+[ rel:describedby &lt;http://example.org/af-population#row:3&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1961"^^xsd:gYear ;
+  :population 9799379 ]
+
+[ rel:describedby &lt;http://example.org/af-population#row:4&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1962"^^xsd:gYear ;
+  :population 9989846 ]
+
+[ rel:describedby &lt;http://example.org/af-population#row:5&gt; ;
+  :country &lt;http://en.wikipedia.org/wiki/Afghanistan&gt; ;
+  :year "1963"^^xsd:gYear ;
+  :population 10188299 ]
+          </pre>
+          <p>
+            Similarly, the resulting XML will use the vocabularies to determine the namespace URIs for the child elements of the <code>&lt;csv:item&gt;</code> elements representing each entity:
+          </p>
+          <pre class="xml example highlight">
+&lt;csv:collection xml:base="http://example.org/af-population"
+  xmlns:csv="http://example.org/linked-csv"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://example.org/def/statistics#">
+  &lt;csv:item>
+    &lt;country href="http://en.wikipedia.org/wiki/Afghanistan" />
+    &lt;year xsi:type="xsd:gYear">1960&lt;/year>
+    &lt;population xsi:type="xsd:integer">9616353&lt;/population>
+  &lt;/csv:item>
+  &lt;csv:item>
+    &lt;country href="http://en.wikipedia.org/wiki/Afghanistan" />
+    &lt;year xsi:type="xsd:gYear">1961&lt;/year>
+    &lt;population xsi:type="xsd:integer">9799379&lt;/population>
+  &lt;/csv:item>
+  &lt;csv:item>
+    &lt;country href="http://en.wikipedia.org/wiki/Afghanistan" />
+    &lt;year xsi:type="xsd:gYear">1962&lt;/year>
+    &lt;population xsi:type="xsd:integer">9989846&lt;/population>
+  &lt;/csv:item>
+  &lt;csv:item>
+    &lt;country href="http://en.wikipedia.org/wiki/Afghanistan" />
+    &lt;year xsi:type="xsd:gYear">1963&lt;/year>
+    &lt;population xsi:type="xsd:integer">10188299&lt;/population>
+  &lt;/csv:item>
+&lt;/csv:collection>
+          </pre>
+          <p>
+            Applications may attempt to resolve the URLs in the URL prolog lines; if they do so, this should resolve into a linked CSV file that describes the properties. In this example, <code>http://example.org/def/statistics</code> should contain something like:
+          </p>
+          <pre class="example highlight">
+$id,        label,     description
+#country,   country,   "The country for which the population is being provided."
+#year,      year,      "The year for which the population is being provided."
+#population,population,"The number of people populating the given country in the given year."
+          </pre>
+          <p class="issue">
+            TODO: talk about the vocabulary used within these files. RDFS is the obvious one to use, but maybe could use schema.org?
+          </p>
+        </section>
+
+        <section id="see-also">
+          <h4>Additional Data Sources</h4>
+          <p>
+            A <a>prolog line</a> in which the value of the <code>#</code> column is <code>see</code> provides pointers to other linked CSV files that describe the resources in appropriate columns.
+          </p>
+          <p>
+            Within a <code>see</code> line, columns that hold URI values (and are thus have names that start with <code>$</code>), can reference additional linked CSV files that describe the entities identified by the URIs in that column. For example, the population data within <code>http://example.org/af-populations</code> references a country described within <code>http://example.org/countries</code>. The population file would include:
+          </p>
+          <pre class="example highlight">
+<strong>#</strong>,  $country,                                year^^time,population^^integer
+<strong>see,http://example.org/countries,            ,</strong>
+,   http://en.wikipedia.org/wiki/Afghanistan,1960,      9616353
+,   http://en.wikipedia.org/wiki/Afghanistan,1961,      9799379
+,   http://en.wikipedia.org/wiki/Afghanistan,1962,      9989846
+,   http://en.wikipedia.org/wiki/Afghanistan,1963,      10188299
+          </pre>
+          <p>
+            This indicates that an application can look within <code>http://example.org/countries</code> to find more information about some or all of the URIs within the <code>$country</code> column. The URIs within the <code>$id</code> column in that file should match the URIs within the <code>$country</code> column in this file.
+          </p>
+          <p>
+            Values in the <code>see</code> row are ignored for columns where the relevant header does not start with <code>$</code> (ie where the column does not contain URIs).
+          </p>
+          <p>
+            This technique can also be used to point to additional data about the entities described within the linked CSV file itself. For example if another publisher also published a linked CSV file containing information about countries at <code>http://other.example.com/countries</code> (perhaps providing their names in other languages or describing their capital cities), we could reference it from the <code>http://example.org/countries</code> file as follows:
+          </p>
+          <pre class="example highlight">
+#,  $id,                                     country,name@en,                        name@fr
+see,http://other.example.com/countries,      ,       ,
+,   http://en.wikipedia.org/wiki/Andorra,    AD,     Andorra,                        Andorre
+,   http://en.wikipedia.org/wiki/Andorra,    ,       Principality of Andorra,
+,   http://en.wikipedia.org/wiki/Afghanistan,AF,     Afghanistan,                    Afghanistan
+,   http://en.wikipedia.org/wiki/Afghanistan,,       Islamic Republic of Afghanistan,
+          </pre>
+        </section>
+      </section>
+    </section>
+
+    <section>
+      <h2>Packaging</h2>
+      <p>
+        It is useful to be able to package together sets of linked CSV files, which may include multiple interrelated tables of data. A linked CSV package is simply a set of such files within a zip. These files should use relative links when pointing to other files within the package.
+      </p>
+      <p>
+        The entry point for a linked CSV package is always named <code>manifest.csv</code>. At its simplest, the manifest file simply needs a single column named <code>$id</code> that lists the files within the package. For example:
+      </p>
+      <pre class="example highlight">
+$id
+countries.csv
+populations.csv
+ad-population.csv
+af-population.csv
+ai-population.csv
+...
+      </pre>
+      <p>
+        The manifest may list any number of the files: it does not need to list them all, merely to provide entry points such that the others can be located. There are two routes through which applications can locate other files within the package:
+      </p>
+      <ul>
+        <li>through <code>see</code> <a title="prolog line">prolog lines</a> which reference other linked CSV files that describe entities referenced within the file as described in <a href="#see-also" class="sectionRef"></a></li>
+        <li>through relevant link relations within the <code>http://www.iana.org/assignments/relation/</code> vocabulary, such as <code>index</code>, <code>item</code>, <code>prev</code> and <code>next</code></li>
+      </ul>
+      <p>
+        In our example, the <code>populations.csv</code> file that lists all the files that contain population data. It would look like:
+      </p>
+      <pre class="example highlight">
+#,    $id,@item
+vocab,,   http://www.iana.org/assignments/relation/
+,     .,  ad-population.csv
+,     .,  af-population.csv
+,     .,  ai-population.csv
+...
+      </pre>
+      <p>
+        If <code>populations.csv</code> had that structure, the individual population files would not need to be listed in the manifest since they are discoverable through that index. In addition, each of the population files references <code>countries.csv</code> within a <a>prolog line</a> (to point to details about the country that the population file is about). Therefore these files do not <em>have</em> to be listed in the manifest either. The manifest can simply be:
+      </p>
+      <pre class="example highlight">
+$id
+populations.csv
+      </pre>
+      <p>
+        However it may be useful to list other attributes of the files included within the manifest, particularly if it can help recipients understand the package as a whole. Sufficient metadata should be listed within the manifest to enable the recipient to tell whether it should be opened, but the majority of the metadata should be included within the file itself.
+      </p>
+      <p class="issue">
+        TODO: Reference schema.org dataset vocabulary here?
+      </p>
+    </section>
+
+    <section id="json-mapping">
+      <h2>Mapping to JSON</h2>
+      <p>
+        Linked CSV does not have to be mapped to JSON, but it can be used to create a JSON document (or, in the case of a package of linked CSV files, a collection of XML documents) for systems that store information as JSON. Two conversions are provided here. One generates a simple JSON format that loses much of the information that is encoded within the linked CSV file; the other generates a more complex JSON-LD file that preserves that information.
+      </p>
+      <section id="csv-to-simple-json">
+        <h3>Parsing Linked CSV as Simple JSON</h3>
+        <p>
+          The results of this parsing is an array of objects, one per entity in the linked CSV. An entity is generated for each data line that does not have a <code>$id</code> value, and for each unique <code>$id</code> value. If the entity has an identifier, the object is given a <code>"@id"</code> property whose value is the URI resolved against the base URI of the linked CSV document. Thus each object is associated with a sequence of one or more data lines.
+        </p>
+        <p>
+          The unique property names for the objects are identified by stripping the prefixes and suffixes described in <a href="#property-types" class="sectionRef"></a>, such that each column is mapped to a property; multiple columns may be mapped to a single property. Where there are multiple columns mapping to a single property, that property is marked as <dfn title="expects arrays">expecting arrays</dfn>. If any of the columns comprising the property indicates a language, the property is marked as a <dfn>language property</dfn>.
+        </p>
+        <p class="note">
+          Any <code>vocab</code> <a>prolog line</a> is ignored in the conversion to simple JSON.
+        </p>
+        <p>
+          Each sequence of data lines associated with the object is processed as follows. A property is created within the object for each property for which the data lines provide values (properties with no values are left undefined). If the property <a>expects arrays</a>, it will be assigned an array of values even if only one value is provided within the data lines. Each value is then processed as follows:
+        </p>
+        <ol>
+          <li>if the property is a <a>language property</a>, it is mapped into an object with a property <code>value</code> and, if the column from which the value comes has a name that contains the <code>@</code> character, a <code>lang</code> property whose value is the language suffix from the column name</li>
+          <li>if the value comes from a column whose datatype is <code>integer</code>, <code>decimal</code> or <code>double</code>, if it is numeric, it is mapped to a number, otherwise to <code>null</code></li>
+          <li>if the value comes from a column whose datatype is <code>boolean</code>, if it has the value <code>true</code> or <code>false</code>, it is mapped to a boolean, otherwise to <code>null</code></li>
+          <li>if the value comes from a column whose datatype is <code>date</code> and it is a valid year, it is mapped to a number, otherwise to a string</li>
+          <li>if the value comes from a column whose name starts with <code>@</code>, it is resolved as a URI against the base URI of the linked CSV file and the resulting URI is used as the (string) value</li>
+          <li>otherwise, it is mapped to a string</li>
+        </ol>
+        <p class="issue">
+          TODO: handle recursive processing into referenced linked CSV files
+        </p>
+      </section>
+      <section id="csv-to-json-ld">
+        <h3>Parsing Linked CSV as JSON-LD</h3>
+        <p class="issue">
+          TODO
+        </p>
+      </section>
+    </section>
+
+    <section id="xml-mapping">
+      <h2>Mapping to XML</h2>
+      <p>
+        Linked CSV does not have to be mapped to XML, but it can be used to create an XML document (or, in the case of a package of linked CSV files, a collection of XML documents) for systems that store information as XML.
+      </p>
+      <section id="csv-to-xml">
+        <h3>Parsing Linked CSV as XML</h3>
+        <p>
+          The namespace for the standard elements is <code>http://example.org/linked-csv</code> which is conventionally associated with the prefix <code>csv</code>. The document element is named <code>&lt;csv:collection&gt;</code>. It is given the following attributes:
+        </p>
+        <ul>
+          <li>an <code>xml:base</code> attribute whose value is the base URI of the linked CSV file</li>
+          <li>a <code>xmlns:csv</code> namespace declaration for the namespace <code>http://example.org/linked-csv</code></li>
+          <li>a <code>xmlns:xsd</code> namespace declaration for the namespace <code>http://www.w3.org/2001/XMLSchema</code></li>
+          <li>a <code>xmlns:xsi</code> namespace declaration for the namespace <code>http://www.w3.org/2001/XMLSchema-instance</code></li>
+        </ul>
+        <p>
+           An <code>&lt;csv:item&gt;</code> element is generated for each entity in the linked CSV. The entities are uniquely identified by the value of the <code>$id</code> column; data lines with the same <code>$id</code> are merged into a single <code>&lt;csv:item&gt;</code> element, though a separate <code>&lt;csv:item&gt;</code> element is generated for each data line with no <code>$id</code> value. The value of the <code>$id</code> column becomes the value of the <code>@href</code> attribute on the <code>&lt;csv:item&gt;</code> element.
+        </p>
+        <p>
+          Within the <code>&lt;csv:item&gt;</code> element, a child element is generated for each unique value of each property (values from different columns, which may have different vocabularies, datatypes or languages create separate elements). Note that the <code>$id</code> column, if it exists, is not processed in this way. The local name of the child element is the name of the column, but stripped of any prefix or suffix as described in <a href="#property-types" class="sectionRef"></a>. This element is in no namespace, unless there is a <code>vocab</code> <a>prolog line</a> which provides a namespace for the column.
+        </p>
+        <p class="issue">
+          TODO: normalisation of property names into XML names
+        </p>
+        <p>
+          The attributes and content of the property element are determined as follows:
+        </p>
+        <ol>
+          <li>if the column name starts with <code>@</code>, the element is given an <code>href</code> attribute whose value is the URI of the field</li>
+          <li>otherwise, the element's content is set to the value of the field; additionally
+            <ol>
+              <li>
+                if the column name contains the characters <code>^^</code>, take the substring after the <code>^^</code> as the datatype; if the datatype is <code>date</code> use the syntax of the value to determine which of the XML Schema datatypes is appropriate; add a <code>xsi:type</code> attribute whose value is <code>xsd:<var>datatype</var></code>
+              </li>
+              <li>
+                if the column name contains the characters <code>@</code>, add a <code>xml:lang</code> attribute whose value is the language indicated by the language code after the <code>@</code>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <p class="issue">
+          TODO: handle recursive processing into referenced linked CSV files
+        </p>
+      </section>
+    </section>
+
+    <section id="rdf-mapping">
+      <h2>Mapping to RDF</h2>
+      <p>
+        Linked CSV does not have to be mapped to RDF, but it can be used to create a graph (or, in the case of a package of linked CSV files, a set of graphs) for systems that store information as RDF.
+      </p>
+      <section id="csv-to-rdf">
+        <h3>Parsing Linked CSV as RDF</h3>
+        <p>
+          Each <a>data line</a> describes a resource, which has properties whose URIs are generated based on the names of the columns given in the header and the vocabulary URIs given in the <code>vocab</code> prolog line, and values based on the values given within the data lines.
+        </p>
+        <p>
+          If the data line has a <code>$id</code> value, this gives the URI for the resource (resolved against the base URI of the linked CSV file). If it does not have a <code>$id</code> value, it is a blank node. Either way, a triple must be generated of the form:
+        </p>
+        <pre>
+<var>resource</var> &lt;http://www.iana.org/assignments/relation/describedby&gt; <var>CSV-line</var> .
+        </pre>
+        <p>
+          where the <var>CSV-line</var> is a reference to the row that describes the resource, using a fragment identifier of the form <code>#row:<var>N</var></code>. Note that there may be many such <code>describedby</code> statements for a single resource if its description is split over several lines.
+        </p>
+        <p>
+          If there is a <code>vocab</code> prolog line in the linked CSV file, and it contains a value in a given column, the name of the column is stripped of any prefix or suffix as described in <a href="#property-types" class="sectionRef"></a> to give a property name, and the property URI constructed by appending this to the URI given in the <code>vocab</code> prolog line. In all other cases, the property URI is constructed from the fragment identifier <code>#<var>property</var></code> with the base URI of the linked CSV file.
+        </p>
+        <p>
+          For each data line, an RDF statement is generated for each column aside from the <code>#</code> and <code>$id</code> columns. The URI of the property is determined as above. The value of the property is interpreted as one of:
+        </p>
+        <ol>
+          <li>if the column name starts with <code>@</code>, a URI reference</li>
+          <li>otherwise, a literal value:
+            <ol>
+              <li>if the column name contains the characters <code>^^</code>, take the substring after the <code>^^</code> as the datatype:
+                <ol>
+                  <li>if the datatype is <code>date</code> use the syntax of the value to determine which of the XML Schema datatypes is appropriate</li>
+                  <li>otherwise, append the datatype to the URI <code>http://www.w3.org/2001/XMLSchema#</code> to get the datatype URI</li>
+                </ol>
+              </li>
+              <li>
+                otherwise, if the column name contains the characters <code>@</code>, a literal value with the language indicated by the language code after the <code>@</code>
+              </li>
+              <li>otherwise a with the datatype <code>http://www.w3.org/2001/XMLSchema#string</code></li>
+            </ol>
+          </li>
+        </ol>
+        <p>
+          Multiple equivalent triples may be generated through this process if the resource is described by more than one row; these will be merged naturally as part of RDF semantics.
+        </p>
+        <p class="issue">
+          TODO: handle recursive processing into referenced linked CSV files
+        </p>
+      </section>
+      <section id="rdf-to-csv">
+        <h3>Publishing RDF as Linked CSV</h3>
+        <p class="note">
+          TODO: This wouldn't be too hard to do, though lossy.
+        </p>
+      </section>
+    </section>
+    <section class="appendix">
+      <h2>Acknowledgements</h2>
+      <p>
+        This work is inspired by <a href="https://developers.google.com/public-data/">Google's Dataset Publishing Language</a> and <a href="http://www.dataprotocols.org/en/latest/simple-data-format.html">OKFN's Simple Data Format</a>, along with some suggestions from Francis Irving and review by John Sheridan, Leigh Dodds and Tim Berners-Lee.
+      </p>
+    </section>
+  </body>
+</html>
