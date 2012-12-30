@@ -490,9 +490,6 @@ url, /def/statistics#country,                  /def/statistics#year,/def/statist
 ,    http://en.wikipedia.org/wiki/Afghanistan, 1962,                9989846
 ,    http://en.wikipedia.org/wiki/Afghanistan, 1963,                10188299
           </pre>
-          <p class="issue">
-            Could make this easier by supporting "CURIEs" within the URL prolog lines, so that people don't have to use full URLs when they are using common vocabularies such as RDF, RDFS or schema.org.
-          </p>
           <p>
             The resulting RDF would use these URLs for the <code>country</code>, <code>year</code> and <code>population</code> properties:
           </p>
@@ -561,9 +558,51 @@ $id,        label,     description
 #year,      year,      "The year for which the population is being provided."
 #population,population,"The number of people populating the given country in the given year."
           </pre>
-          <p class="issue">
-            TODO: add a <code>url</code> prolog line for this example. Talk about the vocabulary used within these files. RDFS is the obvious one to use, but maybe could use schema.org?
+          <p>
+            To make it easier to use common vocabularies, a field within the URL prolog line may contain a CURIE (in the form <code><var>prefix</var>:<var>name</var></code>) as a shorthand for a URL. If a field within the URL prolog line starts with a <dfn>recognised prefix</dfn>, that prefix is expanded to its <dfn>namespace</dfn> and prepended to the remainder of the CURIE (after the colon). The recognised prefixes are:
           </p>
+          <table>
+            <thead>
+              <tr><th>prefix</th><th>namespace</th><th>description</th></tr>
+            </thead>
+            <tbody>
+              <tr><th colspan="3">Generic Vocabularies</th></tr>
+              <tr><td><code>rel</code></td><td><code>http://www.iana.org/assignments/relation/</code></td><td><a href="http://www.iana.org/assignments/link-relations/link-relations.xml">IANA Link Relations</a></td></tr>
+              <tr><td><code>schema</code></td><td><code>http://schema.org/</code></td><td>schema.org</td></tr>
+            </tbody>
+            <tbody>
+              <tr><th colspan="3">Metadata Vocabularies</th></tr>
+              <tr><td><code>dc</code></td><td><code>http://purl.org/dc/terms/</code></td><td>Dublin Core Metadata Terms</td></tr>
+              <tr><td><code>dct</code></td><td><code>http://purl.org/dc/terms/</code></td><td>Dublin Core Metadata Terms</td></tr>
+              <tr><td><code>cc</code></td><td><code>http://creativecommons.org/ns#</code></td><td>Creative Commons Rights Expression Language</td></tr>
+              <tr><td><code>void</code></td><td><code>http://rdfs.org/ns/void#</code></td><td>VoID</td></tr>
+              <tr><td><code>wdrs</code></td><td><code>http://www.w3.org/2007/05/powder-s#</code></td><td>POWDER-S</td></tr>
+            </tbody>
+            <tbody>
+              <tr><th colspan="3">Schema Vocabularies</th></tr>
+              <tr><td><code>rdf</code></td><td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></td><td>RDF</td></tr>
+              <tr><td><code>rdfs</code></td><td><code>http://www.w3.org/2000/01/rdf-schema#</code></td><td>RDF Schema</td></tr>
+              <tr><td><code>owl</code></td><td><code>http://www.w3.org/2002/07/owl#</code></td><td>OWL</td></tr>
+              <tr><td><code>skos</code></td><td><code>http://www.w3.org/2004/02/skos/core#</code></td><td>SKOS</td></tr>
+              <tr><td><code>skos-xl</code></td><td><code>http://www.w3.org/2008/05/skos-xl#</code></td><td>SKOS Extensions for Labels</td></tr>
+            </tbody>
+          </table>
+          <p class="issue">
+            This list is largely based on hunches about which vocabularies are going to be useful in linked CSV documents, coupled with some dogma in pushing schema.org as the vocabulary to rule them all. An alternative would be to define the same prefixes as listed in <a href="http://www.w3.org/2011/rdfa-context/rdfa-1.1"><code>http://www.w3.org/2011/rdfa-context/rdfa-1.1</code></a>.
+          </p>
+          <p class="issue">
+            There's no support for declaring your own prefixes or declaring a default prefix/vocabulary.
+          </p>
+          <p>
+            Linked CSV files that describe the properties used within other linked CSV files SHOULD use the RDFS vocabulary, which contains properties such as <code>rdfs:label</code> and <code>rdfs:comment</code>, to provide details about the properties. For example:
+          </p>
+          <pre class="example highlight">
+$id,        label,     description
+<strong>url,        rdfs:label,rdfs:comment</strong>
+#country,   country,   "The country for which the population is being provided."
+#year,      year,      "The year for which the population is being provided."
+#population,population,"The number of people populating the given country in the given year."
+          </pre>
         </section>
 
         <section id="self-describing">
