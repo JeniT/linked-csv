@@ -1,0 +1,6 @@
+﻿#,$id,title (en),title (fr),title (de)
+lang,,en,fr,de
+prop,,dc:title,dc:title,dc:title
+,tsdcc100.csv,Greenhouse gas emissions,Émissions de gaz à effet de serre,Treibhausgasemissionen
+,airpol.csv,Air pollution indicator,Indicateur de la pollution atmosphérique,Indikator für Luftverschmutzung
+,geo.csv,Geopolitical entity (declaring),Entité géopolitique (déclarante),Geopolitische Meldeeinheit

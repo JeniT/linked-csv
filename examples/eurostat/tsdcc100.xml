@@ -1,0 +1,9732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="eurostat2csv.xsl"?>
+<Data>
+<Table>
+<Grid>
+<AxisZ name="airpol">
+<Position value="5_1">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<AxisY name="geo">
+<Position value="EU27">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="89"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="BE">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="87"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="BG">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="80"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="62"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="56"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="55"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="57"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="55"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="59"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="58"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="58"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="59"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="62"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="60"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="52"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="CZ">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="DK">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="116"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="130"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="116"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="89"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="DE">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="90"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="90"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="80"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="80"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="78"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="78"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="EE">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="52"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="51"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="50"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="43"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="43"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="45"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="52"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="40"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="50"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="IE">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="118"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="120"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="127"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="125"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="122"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="EL">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="118"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="118"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="121"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="122"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="122"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="125"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="129"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="129"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="125"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="ES">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="116"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="120"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="130"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="135"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="135"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="141"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="143"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="149"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="154"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="151"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="154"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="143"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="130"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="FR">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="IT">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="CY">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="120"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="136"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="155"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="162"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="154"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="147"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="156"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="156"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="154"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="161"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="167"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="173"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="171"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="178"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="177"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="176"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="172"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="168"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="LV">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="60"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="53"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="45"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="43"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="39"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="45"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="LT">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="61"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="39"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="51"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="40"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="LU">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="67"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="90"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="HU">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="80"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="78"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="MT">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="121"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="120"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="128"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="128"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="134"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="136"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="145"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="144"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="149"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="148"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="154"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="152"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="148"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="149"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="NL">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="AT">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="118"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="117"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="PL">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="89"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="87"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="80"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="89"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="PT">
+<AttList>
+<Att name="order">22</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="117"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="127"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="140"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="137"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="139"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="146"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="137"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="141"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="144"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="136"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="132"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="130"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="118"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="RO">
+<AttList>
+<Att name="order">23</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="67"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="61"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="55"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="56"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="58"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="60"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="59"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="59"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="60"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="59"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="58"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="SI">
+<AttList>
+<Att name="order">24</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="116"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="SK">
+<AttList>
+<Att name="order">25</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="89"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="62"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="64"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="FI">
+<AttList>
+<Att name="order">26</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="120"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="SE">
+<AttList>
+<Att name="order">27</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="90"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="87"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="UK">
+<AttList>
+<Att name="order">28</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="87"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="IS">
+<AttList>
+<Att name="order">29</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="131"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="142"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="134"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="130"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="NO">
+<AttList>
+<Att name="order">30</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="CH">
+<AttList>
+<Att name="order">31</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="TR">
+<AttList>
+<Att name="order">32</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="116"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="127"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="138"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="145"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="147"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="147"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="159"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="149"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="153"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="162"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="167"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="176"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="187"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="203"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="196"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="198"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+</AxisX>
+</Position>
+</AxisY>
+</Position>
+<Position value="5_2">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<AxisY name="geo">
+<Position value="EU27">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="BE">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="BG">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="64"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="62"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="60"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="61"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="61"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="58"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="50"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="51"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="50"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="50"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="51"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="53"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="52"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="CZ">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="80"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="78"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="75"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="DK">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="128"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="DE">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="89"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="87"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="EE">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="65"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="50"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="52"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="40"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="40"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="45"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="50"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="38"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="IE">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="117"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="122"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="122"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="125"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="122"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="EL">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="120"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="127"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="117"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="ES">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="117"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="127"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="131"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="132"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="137"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="140"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="145"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="150"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="147"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="151"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="139"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="123"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="FR">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="IT">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="CY">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="LV">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="62"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="45"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="40"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="43"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="43"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="45"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="45"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="LT">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="61"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="48"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="39"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="41"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="46"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="47"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="51"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="40"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="42"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="LU">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="65"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="87"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="HU">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="78"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="67"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="67"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="67"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="66"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="64"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="58"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="59"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="MT">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="NL">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="AT">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="95"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="116"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="116"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="118"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="PL">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="77"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="79"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="78"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="65"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="69"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="PT">
+<AttList>
+<Att name="order">22</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="117"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="118"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="126"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="140"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="137"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="138"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="146"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="137"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="141"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="144"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="136"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="131"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="129"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="124"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="117"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="RO">
+<AttList>
+<Att name="order">23</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="65"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="63"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="62"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="65"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="66"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="61"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="55"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="49"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="51"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="51"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="53"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="55"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="55"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="54"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="53"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="44"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="SI">
+<AttList>
+<Att name="order">24</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="SK">
+<AttList>
+<Att name="order">25</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="73"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="72"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="71"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="68"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="70"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="61"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="64"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="FI">
+<AttList>
+<Att name="order">26</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="119"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="105"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="SE">
+<AttList>
+<Att name="order">27</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="88"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="83"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="UK">
+<AttList>
+<Att name="order">28</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="92"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="91"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="94"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="90"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="90"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="86"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="87"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="85"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="84"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="82"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="81"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="74"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="76"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="IS">
+<AttList>
+<Att name="order">29</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="114"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="115"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="113"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="129"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="136"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="147"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="140"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="135"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="NO">
+<AttList>
+<Att name="order">30</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="93"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="106"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="107"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="110"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="111"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="112"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="108"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="109"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="CH">
+<AttList>
+<Att name="order">31</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value="101"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value="104"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value="96"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value="97"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value="98"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value="100"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value="102"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value="99"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value="103"/>
+</Position>
+</AxisX>
+</Position>
+<Position value="TR">
+<AttList>
+<Att name="order">32</Att>
+</AttList>
+<AxisX name="time">
+<Position value="1990">
+<AttList>
+<Att name="order">21</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1991">
+<AttList>
+<Att name="order">20</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1992">
+<AttList>
+<Att name="order">19</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1993">
+<AttList>
+<Att name="order">18</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1994">
+<AttList>
+<Att name="order">17</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1995">
+<AttList>
+<Att name="order">16</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1996">
+<AttList>
+<Att name="order">15</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1997">
+<AttList>
+<Att name="order">14</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1998">
+<AttList>
+<Att name="order">13</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="1999">
+<AttList>
+<Att name="order">12</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2000">
+<AttList>
+<Att name="order">11</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2001">
+<AttList>
+<Att name="order">10</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2002">
+<AttList>
+<Att name="order">9</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2003">
+<AttList>
+<Att name="order">8</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2004">
+<AttList>
+<Att name="order">7</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2005">
+<AttList>
+<Att name="order">6</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2006">
+<AttList>
+<Att name="order">5</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2007">
+<AttList>
+<Att name="order">4</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2008">
+<AttList>
+<Att name="order">3</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2009">
+<AttList>
+<Att name="order">2</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+<Position value="2010">
+<AttList>
+<Att name="order">1</Att>
+</AttList>
+<Cell value=":"/>
+</Position>
+</AxisX>
+</Position>
+</AxisY>
+</Position>
+</AxisZ>
+</Grid>
+<Information>
+<Group type="context">
+<Element name="table" value="tsdcc100"/>
+</Group>
+<Group type="nomenclature">
+<Group type="language" value="en">
+<Group type="dictionary" value="context">
+<Element name="code" value="newcronos">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Eurostat database</Att>
+</AttList>
+</Element>
+<Element name="code" value="tsdcc100">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Greenhouse gas emissions</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="airpol">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Air pollution indicator</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="airpol">
+<AttList>
+<Att name="label">Air pollution indicator</Att>
+</AttList>
+<Element name="code" value="5_1">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Total Greenhouse Gas Emissions (in CO2 equivalent) indexed to 1990</Att>
+</AttList>
+</Element>
+<Element name="code" value="5_2">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">Total Greenhouse Gas Emissions (in CO2 equivalent) indexed to Kyoto base
+year</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="geo">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Geopolitical entity (declaring)</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="geo">
+<AttList>
+<Att name="label">Geopolitical entity (declaring)</Att>
+</AttList>
+<Element name="code" value="EU27">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">EU (27 countries)</Att>
+</AttList>
+</Element>
+<Element name="code" value="BE">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">Belgium</Att>
+</AttList>
+</Element>
+<Element name="code" value="BG">
+<AttList>
+<Att name="order">3</Att>
+<Att name="label">Bulgaria</Att>
+</AttList>
+</Element>
+<Element name="code" value="CZ">
+<AttList>
+<Att name="order">4</Att>
+<Att name="label">Czech Republic</Att>
+</AttList>
+</Element>
+<Element name="code" value="DK">
+<AttList>
+<Att name="order">5</Att>
+<Att name="label">Denmark</Att>
+</AttList>
+</Element>
+<Element name="code" value="DE">
+<AttList>
+<Att name="order">6</Att>
+<Att name="label">Germany</Att>
+</AttList>
+</Element>
+<Element name="code" value="EE">
+<AttList>
+<Att name="order">7</Att>
+<Att name="label">Estonia</Att>
+</AttList>
+</Element>
+<Element name="code" value="IE">
+<AttList>
+<Att name="order">8</Att>
+<Att name="label">Ireland</Att>
+</AttList>
+</Element>
+<Element name="code" value="EL">
+<AttList>
+<Att name="order">9</Att>
+<Att name="label">Greece</Att>
+</AttList>
+</Element>
+<Element name="code" value="ES">
+<AttList>
+<Att name="order">10</Att>
+<Att name="label">Spain</Att>
+</AttList>
+</Element>
+<Element name="code" value="FR">
+<AttList>
+<Att name="order">11</Att>
+<Att name="label">France</Att>
+</AttList>
+</Element>
+<Element name="code" value="IT">
+<AttList>
+<Att name="order">12</Att>
+<Att name="label">Italy</Att>
+</AttList>
+</Element>
+<Element name="code" value="CY">
+<AttList>
+<Att name="order">13</Att>
+<Att name="label">Cyprus</Att>
+</AttList>
+</Element>
+<Element name="code" value="LV">
+<AttList>
+<Att name="order">14</Att>
+<Att name="label">Latvia</Att>
+</AttList>
+</Element>
+<Element name="code" value="LT">
+<AttList>
+<Att name="order">15</Att>
+<Att name="label">Lithuania</Att>
+</AttList>
+</Element>
+<Element name="code" value="LU">
+<AttList>
+<Att name="order">16</Att>
+<Att name="label">Luxembourg</Att>
+</AttList>
+</Element>
+<Element name="code" value="HU">
+<AttList>
+<Att name="order">17</Att>
+<Att name="label">Hungary</Att>
+</AttList>
+</Element>
+<Element name="code" value="MT">
+<AttList>
+<Att name="order">18</Att>
+<Att name="label">Malta</Att>
+</AttList>
+</Element>
+<Element name="code" value="NL">
+<AttList>
+<Att name="order">19</Att>
+<Att name="label">Netherlands</Att>
+</AttList>
+</Element>
+<Element name="code" value="AT">
+<AttList>
+<Att name="order">20</Att>
+<Att name="label">Austria</Att>
+</AttList>
+</Element>
+<Element name="code" value="PL">
+<AttList>
+<Att name="order">21</Att>
+<Att name="label">Poland</Att>
+</AttList>
+</Element>
+<Element name="code" value="PT">
+<AttList>
+<Att name="order">22</Att>
+<Att name="label">Portugal</Att>
+</AttList>
+</Element>
+<Element name="code" value="RO">
+<AttList>
+<Att name="order">23</Att>
+<Att name="label">Romania</Att>
+</AttList>
+</Element>
+<Element name="code" value="SI">
+<AttList>
+<Att name="order">24</Att>
+<Att name="label">Slovenia</Att>
+</AttList>
+</Element>
+<Element name="code" value="SK">
+<AttList>
+<Att name="order">25</Att>
+<Att name="label">Slovakia</Att>
+</AttList>
+</Element>
+<Element name="code" value="FI">
+<AttList>
+<Att name="order">26</Att>
+<Att name="label">Finland</Att>
+</AttList>
+</Element>
+<Element name="code" value="SE">
+<AttList>
+<Att name="order">27</Att>
+<Att name="label">Sweden</Att>
+</AttList>
+</Element>
+<Element name="code" value="UK">
+<AttList>
+<Att name="order">28</Att>
+<Att name="label">United Kingdom</Att>
+</AttList>
+</Element>
+<Element name="code" value="IS">
+<AttList>
+<Att name="order">29</Att>
+<Att name="label">Iceland</Att>
+</AttList>
+</Element>
+<Element name="code" value="NO">
+<AttList>
+<Att name="order">30</Att>
+<Att name="label">Norway</Att>
+</AttList>
+</Element>
+<Element name="code" value="CH">
+<AttList>
+<Att name="order">31</Att>
+<Att name="label">Switzerland</Att>
+</AttList>
+</Element>
+<Element name="code" value="TR">
+<AttList>
+<Att name="order">32</Att>
+<Att name="label">Turkey</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="time">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Period of time (a=annual, q=quarterly, m=monthly, d=daily, c=cumulated from
+January)</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="time">
+<AttList>
+<Att name="label">Period of time (a=annual, q=quarterly, m=monthly, d=daily, c=cumulated from
+January)</Att>
+</AttList>
+<Element name="code" value="1990">
+<AttList>
+<Att name="order">21</Att>
+<Att name="label">1990</Att>
+</AttList>
+</Element>
+<Element name="code" value="1991">
+<AttList>
+<Att name="order">20</Att>
+<Att name="label">1991</Att>
+</AttList>
+</Element>
+<Element name="code" value="1992">
+<AttList>
+<Att name="order">19</Att>
+<Att name="label">1992</Att>
+</AttList>
+</Element>
+<Element name="code" value="1993">
+<AttList>
+<Att name="order">18</Att>
+<Att name="label">1993</Att>
+</AttList>
+</Element>
+<Element name="code" value="1994">
+<AttList>
+<Att name="order">17</Att>
+<Att name="label">1994</Att>
+</AttList>
+</Element>
+<Element name="code" value="1995">
+<AttList>
+<Att name="order">16</Att>
+<Att name="label">1995</Att>
+</AttList>
+</Element>
+<Element name="code" value="1996">
+<AttList>
+<Att name="order">15</Att>
+<Att name="label">1996</Att>
+</AttList>
+</Element>
+<Element name="code" value="1997">
+<AttList>
+<Att name="order">14</Att>
+<Att name="label">1997</Att>
+</AttList>
+</Element>
+<Element name="code" value="1998">
+<AttList>
+<Att name="order">13</Att>
+<Att name="label">1998</Att>
+</AttList>
+</Element>
+<Element name="code" value="1999">
+<AttList>
+<Att name="order">12</Att>
+<Att name="label">1999</Att>
+</AttList>
+</Element>
+<Element name="code" value="2000">
+<AttList>
+<Att name="order">11</Att>
+<Att name="label">2000</Att>
+</AttList>
+</Element>
+<Element name="code" value="2001">
+<AttList>
+<Att name="order">10</Att>
+<Att name="label">2001</Att>
+</AttList>
+</Element>
+<Element name="code" value="2002">
+<AttList>
+<Att name="order">9</Att>
+<Att name="label">2002</Att>
+</AttList>
+</Element>
+<Element name="code" value="2003">
+<AttList>
+<Att name="order">8</Att>
+<Att name="label">2003</Att>
+</AttList>
+</Element>
+<Element name="code" value="2004">
+<AttList>
+<Att name="order">7</Att>
+<Att name="label">2004</Att>
+</AttList>
+</Element>
+<Element name="code" value="2005">
+<AttList>
+<Att name="order">6</Att>
+<Att name="label">2005</Att>
+</AttList>
+</Element>
+<Element name="code" value="2006">
+<AttList>
+<Att name="order">5</Att>
+<Att name="label">2006</Att>
+</AttList>
+</Element>
+<Element name="code" value="2007">
+<AttList>
+<Att name="order">4</Att>
+<Att name="label">2007</Att>
+</AttList>
+</Element>
+<Element name="code" value="2008">
+<AttList>
+<Att name="order">3</Att>
+<Att name="label">2008</Att>
+</AttList>
+</Element>
+<Element name="code" value="2009">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">2009</Att>
+</AttList>
+</Element>
+<Element name="code" value="2010">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">2010</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="flagsfootnotes">
+<Element name="code" value=":">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">not available</Att>
+</AttList>
+</Element>
+</Group>
+</Group>
+<Group type="language" value="fr">
+<Group type="dictionary" value="context">
+<Element name="code" value="newcronos">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Base de donnees d'Eurostat</Att>
+</AttList>
+</Element>
+<Element name="code" value="tsdcc100">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Émissions de gaz à effet de serre</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="airpol">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Indicateur de la pollution atmosphérique</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="airpol">
+<AttList>
+<Att name="label">Indicateur de la pollution atmosphérique</Att>
+</AttList>
+<Element name="code" value="5_1">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Indice d'émissions de gaz à effet de serre (en équivalent CO2), 1990 = 100 </Att>
+</AttList>
+</Element>
+<Element name="code" value="5_2">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">Indice d'émissions de gaz à effet de serre (en équivalent CO2), année de base de
+Kyoto = 100</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="geo">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Entité géopolitique (déclarante)</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="geo">
+<AttList>
+<Att name="label">Entité géopolitique (déclarante)</Att>
+</AttList>
+<Element name="code" value="EU27">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">UE (27 pays)</Att>
+</AttList>
+</Element>
+<Element name="code" value="BE">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">Belgique</Att>
+</AttList>
+</Element>
+<Element name="code" value="BG">
+<AttList>
+<Att name="order">3</Att>
+<Att name="label">Bulgarie</Att>
+</AttList>
+</Element>
+<Element name="code" value="CZ">
+<AttList>
+<Att name="order">4</Att>
+<Att name="label">République tchèque</Att>
+</AttList>
+</Element>
+<Element name="code" value="DK">
+<AttList>
+<Att name="order">5</Att>
+<Att name="label">Danemark</Att>
+</AttList>
+</Element>
+<Element name="code" value="DE">
+<AttList>
+<Att name="order">6</Att>
+<Att name="label">Allemagne</Att>
+</AttList>
+</Element>
+<Element name="code" value="EE">
+<AttList>
+<Att name="order">7</Att>
+<Att name="label">Estonie</Att>
+</AttList>
+</Element>
+<Element name="code" value="IE">
+<AttList>
+<Att name="order">8</Att>
+<Att name="label">Irlande</Att>
+</AttList>
+</Element>
+<Element name="code" value="EL">
+<AttList>
+<Att name="order">9</Att>
+<Att name="label">Grèce</Att>
+</AttList>
+</Element>
+<Element name="code" value="ES">
+<AttList>
+<Att name="order">10</Att>
+<Att name="label">Espagne</Att>
+</AttList>
+</Element>
+<Element name="code" value="FR">
+<AttList>
+<Att name="order">11</Att>
+<Att name="label">France</Att>
+</AttList>
+</Element>
+<Element name="code" value="IT">
+<AttList>
+<Att name="order">12</Att>
+<Att name="label">Italie</Att>
+</AttList>
+</Element>
+<Element name="code" value="CY">
+<AttList>
+<Att name="order">13</Att>
+<Att name="label">Chypre</Att>
+</AttList>
+</Element>
+<Element name="code" value="LV">
+<AttList>
+<Att name="order">14</Att>
+<Att name="label">Lettonie</Att>
+</AttList>
+</Element>
+<Element name="code" value="LT">
+<AttList>
+<Att name="order">15</Att>
+<Att name="label">Lituanie</Att>
+</AttList>
+</Element>
+<Element name="code" value="LU">
+<AttList>
+<Att name="order">16</Att>
+<Att name="label">Luxembourg</Att>
+</AttList>
+</Element>
+<Element name="code" value="HU">
+<AttList>
+<Att name="order">17</Att>
+<Att name="label">Hongrie</Att>
+</AttList>
+</Element>
+<Element name="code" value="MT">
+<AttList>
+<Att name="order">18</Att>
+<Att name="label">Malte</Att>
+</AttList>
+</Element>
+<Element name="code" value="NL">
+<AttList>
+<Att name="order">19</Att>
+<Att name="label">Pays-Bas</Att>
+</AttList>
+</Element>
+<Element name="code" value="AT">
+<AttList>
+<Att name="order">20</Att>
+<Att name="label">Autriche</Att>
+</AttList>
+</Element>
+<Element name="code" value="PL">
+<AttList>
+<Att name="order">21</Att>
+<Att name="label">Pologne</Att>
+</AttList>
+</Element>
+<Element name="code" value="PT">
+<AttList>
+<Att name="order">22</Att>
+<Att name="label">Portugal</Att>
+</AttList>
+</Element>
+<Element name="code" value="RO">
+<AttList>
+<Att name="order">23</Att>
+<Att name="label">Roumanie</Att>
+</AttList>
+</Element>
+<Element name="code" value="SI">
+<AttList>
+<Att name="order">24</Att>
+<Att name="label">Slovénie</Att>
+</AttList>
+</Element>
+<Element name="code" value="SK">
+<AttList>
+<Att name="order">25</Att>
+<Att name="label">Slovaquie</Att>
+</AttList>
+</Element>
+<Element name="code" value="FI">
+<AttList>
+<Att name="order">26</Att>
+<Att name="label">Finlande</Att>
+</AttList>
+</Element>
+<Element name="code" value="SE">
+<AttList>
+<Att name="order">27</Att>
+<Att name="label">Suède</Att>
+</AttList>
+</Element>
+<Element name="code" value="UK">
+<AttList>
+<Att name="order">28</Att>
+<Att name="label">Royaume-Uni</Att>
+</AttList>
+</Element>
+<Element name="code" value="IS">
+<AttList>
+<Att name="order">29</Att>
+<Att name="label">Islande</Att>
+</AttList>
+</Element>
+<Element name="code" value="NO">
+<AttList>
+<Att name="order">30</Att>
+<Att name="label">Norvège</Att>
+</AttList>
+</Element>
+<Element name="code" value="CH">
+<AttList>
+<Att name="order">31</Att>
+<Att name="label">Suisse</Att>
+</AttList>
+</Element>
+<Element name="code" value="TR">
+<AttList>
+<Att name="order">32</Att>
+<Att name="label">Turquie</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="time">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Période (a=année, s=semestriel, q=trimestre, m=mois, d=jour, c=cumulé à partir de
+janvier)</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="time">
+<AttList>
+<Att name="label">Période (a=année, s=semestriel, q=trimestre, m=mois, d=jour, c=cumulé à partir de
+janvier)</Att>
+</AttList>
+<Element name="code" value="1990">
+<AttList>
+<Att name="order">21</Att>
+<Att name="label">1990</Att>
+</AttList>
+</Element>
+<Element name="code" value="1991">
+<AttList>
+<Att name="order">20</Att>
+<Att name="label">1991</Att>
+</AttList>
+</Element>
+<Element name="code" value="1992">
+<AttList>
+<Att name="order">19</Att>
+<Att name="label">1992</Att>
+</AttList>
+</Element>
+<Element name="code" value="1993">
+<AttList>
+<Att name="order">18</Att>
+<Att name="label">1993</Att>
+</AttList>
+</Element>
+<Element name="code" value="1994">
+<AttList>
+<Att name="order">17</Att>
+<Att name="label">1994</Att>
+</AttList>
+</Element>
+<Element name="code" value="1995">
+<AttList>
+<Att name="order">16</Att>
+<Att name="label">1995</Att>
+</AttList>
+</Element>
+<Element name="code" value="1996">
+<AttList>
+<Att name="order">15</Att>
+<Att name="label">1996</Att>
+</AttList>
+</Element>
+<Element name="code" value="1997">
+<AttList>
+<Att name="order">14</Att>
+<Att name="label">1997</Att>
+</AttList>
+</Element>
+<Element name="code" value="1998">
+<AttList>
+<Att name="order">13</Att>
+<Att name="label">1998</Att>
+</AttList>
+</Element>
+<Element name="code" value="1999">
+<AttList>
+<Att name="order">12</Att>
+<Att name="label">1999</Att>
+</AttList>
+</Element>
+<Element name="code" value="2000">
+<AttList>
+<Att name="order">11</Att>
+<Att name="label">2000</Att>
+</AttList>
+</Element>
+<Element name="code" value="2001">
+<AttList>
+<Att name="order">10</Att>
+<Att name="label">2001</Att>
+</AttList>
+</Element>
+<Element name="code" value="2002">
+<AttList>
+<Att name="order">9</Att>
+<Att name="label">2002</Att>
+</AttList>
+</Element>
+<Element name="code" value="2003">
+<AttList>
+<Att name="order">8</Att>
+<Att name="label">2003</Att>
+</AttList>
+</Element>
+<Element name="code" value="2004">
+<AttList>
+<Att name="order">7</Att>
+<Att name="label">2004</Att>
+</AttList>
+</Element>
+<Element name="code" value="2005">
+<AttList>
+<Att name="order">6</Att>
+<Att name="label">2005</Att>
+</AttList>
+</Element>
+<Element name="code" value="2006">
+<AttList>
+<Att name="order">5</Att>
+<Att name="label">2006</Att>
+</AttList>
+</Element>
+<Element name="code" value="2007">
+<AttList>
+<Att name="order">4</Att>
+<Att name="label">2007</Att>
+</AttList>
+</Element>
+<Element name="code" value="2008">
+<AttList>
+<Att name="order">3</Att>
+<Att name="label">2008</Att>
+</AttList>
+</Element>
+<Element name="code" value="2009">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">2009</Att>
+</AttList>
+</Element>
+<Element name="code" value="2010">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">2010</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="flagsfootnotes">
+<Element name="code" value=":">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">non disponible</Att>
+</AttList>
+</Element>
+</Group>
+</Group>
+<Group type="language" value="de">
+<Group type="dictionary" value="context">
+<Element name="code" value="newcronos">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Die Eurostat-Datenbank</Att>
+</AttList>
+</Element>
+<Element name="code" value="tsdcc100">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Treibhausgasemissionen</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="airpol">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Indikator für Luftverschmutzung</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="airpol">
+<AttList>
+<Att name="label">Indikator für Luftverschmutzung</Att>
+</AttList>
+<Element name="code" value="5_1">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Gesamte Treibhausgasemissionen (CO2 Äquivalente) indiziert auf Basisjahr =
+1990</Att>
+</AttList>
+</Element>
+<Element name="code" value="5_2">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">Gesamte Treibhausgasemissionen (CO2 Äquivalente) indiziert auf Kyoto
+Basisjahr</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="geo">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Geopolitische Meldeeinheit</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="geo">
+<AttList>
+<Att name="label">Geopolitische Meldeeinheit</Att>
+</AttList>
+<Element name="code" value="EU27">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">EU (27 Länder)</Att>
+</AttList>
+</Element>
+<Element name="code" value="BE">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">Belgien</Att>
+</AttList>
+</Element>
+<Element name="code" value="BG">
+<AttList>
+<Att name="order">3</Att>
+<Att name="label">Bulgarien</Att>
+</AttList>
+</Element>
+<Element name="code" value="CZ">
+<AttList>
+<Att name="order">4</Att>
+<Att name="label">Tschechische Republik</Att>
+</AttList>
+</Element>
+<Element name="code" value="DK">
+<AttList>
+<Att name="order">5</Att>
+<Att name="label">Dänemark</Att>
+</AttList>
+</Element>
+<Element name="code" value="DE">
+<AttList>
+<Att name="order">6</Att>
+<Att name="label">Deutschland</Att>
+</AttList>
+</Element>
+<Element name="code" value="EE">
+<AttList>
+<Att name="order">7</Att>
+<Att name="label">Estland</Att>
+</AttList>
+</Element>
+<Element name="code" value="IE">
+<AttList>
+<Att name="order">8</Att>
+<Att name="label">Irland</Att>
+</AttList>
+</Element>
+<Element name="code" value="EL">
+<AttList>
+<Att name="order">9</Att>
+<Att name="label">Griechenland</Att>
+</AttList>
+</Element>
+<Element name="code" value="ES">
+<AttList>
+<Att name="order">10</Att>
+<Att name="label">Spanien</Att>
+</AttList>
+</Element>
+<Element name="code" value="FR">
+<AttList>
+<Att name="order">11</Att>
+<Att name="label">Frankreich</Att>
+</AttList>
+</Element>
+<Element name="code" value="IT">
+<AttList>
+<Att name="order">12</Att>
+<Att name="label">Italien</Att>
+</AttList>
+</Element>
+<Element name="code" value="CY">
+<AttList>
+<Att name="order">13</Att>
+<Att name="label">Zypern</Att>
+</AttList>
+</Element>
+<Element name="code" value="LV">
+<AttList>
+<Att name="order">14</Att>
+<Att name="label">Lettland</Att>
+</AttList>
+</Element>
+<Element name="code" value="LT">
+<AttList>
+<Att name="order">15</Att>
+<Att name="label">Litauen</Att>
+</AttList>
+</Element>
+<Element name="code" value="LU">
+<AttList>
+<Att name="order">16</Att>
+<Att name="label">Luxemburg</Att>
+</AttList>
+</Element>
+<Element name="code" value="HU">
+<AttList>
+<Att name="order">17</Att>
+<Att name="label">Ungarn</Att>
+</AttList>
+</Element>
+<Element name="code" value="MT">
+<AttList>
+<Att name="order">18</Att>
+<Att name="label">Malta</Att>
+</AttList>
+</Element>
+<Element name="code" value="NL">
+<AttList>
+<Att name="order">19</Att>
+<Att name="label">Niederlande</Att>
+</AttList>
+</Element>
+<Element name="code" value="AT">
+<AttList>
+<Att name="order">20</Att>
+<Att name="label">Österreich</Att>
+</AttList>
+</Element>
+<Element name="code" value="PL">
+<AttList>
+<Att name="order">21</Att>
+<Att name="label">Polen</Att>
+</AttList>
+</Element>
+<Element name="code" value="PT">
+<AttList>
+<Att name="order">22</Att>
+<Att name="label">Portugal</Att>
+</AttList>
+</Element>
+<Element name="code" value="RO">
+<AttList>
+<Att name="order">23</Att>
+<Att name="label">Rumänien</Att>
+</AttList>
+</Element>
+<Element name="code" value="SI">
+<AttList>
+<Att name="order">24</Att>
+<Att name="label">Slowenien</Att>
+</AttList>
+</Element>
+<Element name="code" value="SK">
+<AttList>
+<Att name="order">25</Att>
+<Att name="label">Slowakei</Att>
+</AttList>
+</Element>
+<Element name="code" value="FI">
+<AttList>
+<Att name="order">26</Att>
+<Att name="label">Finnland</Att>
+</AttList>
+</Element>
+<Element name="code" value="SE">
+<AttList>
+<Att name="order">27</Att>
+<Att name="label">Schweden</Att>
+</AttList>
+</Element>
+<Element name="code" value="UK">
+<AttList>
+<Att name="order">28</Att>
+<Att name="label">Vereinigtes Königreich</Att>
+</AttList>
+</Element>
+<Element name="code" value="IS">
+<AttList>
+<Att name="order">29</Att>
+<Att name="label">Island</Att>
+</AttList>
+</Element>
+<Element name="code" value="NO">
+<AttList>
+<Att name="order">30</Att>
+<Att name="label">Norwegen</Att>
+</AttList>
+</Element>
+<Element name="code" value="CH">
+<AttList>
+<Att name="order">31</Att>
+<Att name="label">Schweiz</Att>
+</AttList>
+</Element>
+<Element name="code" value="TR">
+<AttList>
+<Att name="order">32</Att>
+<Att name="label">Türkei</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="dimension">
+<Element name="code" value="time">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">Zeitraum (a=Jahr, s=halbjährlich, q=Vierteljahr, m=Monat, d=Tag, c=kumuliert ab
+Januar)</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="time">
+<AttList>
+<Att name="label">Zeitraum (a=Jahr, s=halbjährlich, q=Vierteljahr, m=Monat, d=Tag, c=kumuliert ab
+Januar)</Att>
+</AttList>
+<Element name="code" value="1990">
+<AttList>
+<Att name="order">21</Att>
+<Att name="label">1990</Att>
+</AttList>
+</Element>
+<Element name="code" value="1991">
+<AttList>
+<Att name="order">20</Att>
+<Att name="label">1991</Att>
+</AttList>
+</Element>
+<Element name="code" value="1992">
+<AttList>
+<Att name="order">19</Att>
+<Att name="label">1992</Att>
+</AttList>
+</Element>
+<Element name="code" value="1993">
+<AttList>
+<Att name="order">18</Att>
+<Att name="label">1993</Att>
+</AttList>
+</Element>
+<Element name="code" value="1994">
+<AttList>
+<Att name="order">17</Att>
+<Att name="label">1994</Att>
+</AttList>
+</Element>
+<Element name="code" value="1995">
+<AttList>
+<Att name="order">16</Att>
+<Att name="label">1995</Att>
+</AttList>
+</Element>
+<Element name="code" value="1996">
+<AttList>
+<Att name="order">15</Att>
+<Att name="label">1996</Att>
+</AttList>
+</Element>
+<Element name="code" value="1997">
+<AttList>
+<Att name="order">14</Att>
+<Att name="label">1997</Att>
+</AttList>
+</Element>
+<Element name="code" value="1998">
+<AttList>
+<Att name="order">13</Att>
+<Att name="label">1998</Att>
+</AttList>
+</Element>
+<Element name="code" value="1999">
+<AttList>
+<Att name="order">12</Att>
+<Att name="label">1999</Att>
+</AttList>
+</Element>
+<Element name="code" value="2000">
+<AttList>
+<Att name="order">11</Att>
+<Att name="label">2000</Att>
+</AttList>
+</Element>
+<Element name="code" value="2001">
+<AttList>
+<Att name="order">10</Att>
+<Att name="label">2001</Att>
+</AttList>
+</Element>
+<Element name="code" value="2002">
+<AttList>
+<Att name="order">9</Att>
+<Att name="label">2002</Att>
+</AttList>
+</Element>
+<Element name="code" value="2003">
+<AttList>
+<Att name="order">8</Att>
+<Att name="label">2003</Att>
+</AttList>
+</Element>
+<Element name="code" value="2004">
+<AttList>
+<Att name="order">7</Att>
+<Att name="label">2004</Att>
+</AttList>
+</Element>
+<Element name="code" value="2005">
+<AttList>
+<Att name="order">6</Att>
+<Att name="label">2005</Att>
+</AttList>
+</Element>
+<Element name="code" value="2006">
+<AttList>
+<Att name="order">5</Att>
+<Att name="label">2006</Att>
+</AttList>
+</Element>
+<Element name="code" value="2007">
+<AttList>
+<Att name="order">4</Att>
+<Att name="label">2007</Att>
+</AttList>
+</Element>
+<Element name="code" value="2008">
+<AttList>
+<Att name="order">3</Att>
+<Att name="label">2008</Att>
+</AttList>
+</Element>
+<Element name="code" value="2009">
+<AttList>
+<Att name="order">2</Att>
+<Att name="label">2009</Att>
+</AttList>
+</Element>
+<Element name="code" value="2010">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">2010</Att>
+</AttList>
+</Element>
+</Group>
+<Group type="dictionary" value="flagsfootnotes">
+<Element name="code" value=":">
+<AttList>
+<Att name="order">1</Att>
+<Att name="label">nicht verfügbar</Att>
+</AttList>
+</Element>
+</Group>
+</Group>
+</Group>
+</Information>
+</Table>
+</Data>

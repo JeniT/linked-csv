@@ -1,0 +1,6 @@
+﻿#,$id,title (en),title (fr),title (de)
+lang,,en,fr,de
+prop,,dc:title,dc:title,dc:title
+,tin00075.csv,"Individuals using the Internet, by place of use","Particuliers utilisant Internet, par place d'utilisation","Einzelpersonen, die das Internet nutzen, nach Ort der Nutzung"
+,indic_is.csv,Information society indicator,Indicateur sur la société de l'information,Indikator zur Informationsgesellschaft
+,geo.csv,Geopolitical entity (declaring),Entité géopolitique (déclarante),Geopolitische Meldeeinheit
