@@ -347,30 +347,20 @@ AF,     1963,10188299
 [{
   "@id": "http://en.wikipedia.org/wiki/Andorra",
   "country": "AD",
-  "english name": [{
-    "value": "Andorra",
-    "lang": "en"
-  }, {
-    "value": "Principality of Andorra",
-    "lang": "en"
-  }],
+  "english name": {
+    "en": [ "Andorra", "Principality of Andorra" ]
+  },
   "french name": {
-    "value": "Andorre",
-    "lang": "fr"
+    "fr": "Andorre"
   }
 },{
   "@id": "http://en.wikipedia.org/wiki/Afghanistan",
   "country": "AF",
-  "english name": [{
-    "value": "Afghanistan",
-    "lang": "en"
-  }, {
-    "value": "Islamic Republic of Afghanistan",
-    "lang": "en"
-  }],
+  "english name": {
+    "en": [ "Afghanistan", "Islamic Republic of Afghanistan" ]
+  },
   "french name": {
-    "value": "Afghanistan",
-    "lang": "fr"
+    "fr": "Afghanistan"
   }
 }]
           </pre>
@@ -425,29 +415,17 @@ lang,,                                        ,       en,                       
 [{
   "@id": "http://example.org/countries#AD",
   "country": "AD",
-  "name": [{
-    "value": "Andorra",
-    "lang": "en"
-  }, {
-    "value": "Andorre",
-    "lang": "fr"
-  }, {
-    "value": "Principality of Andorra",
-    "lang": "en"
-  }]
+  "name": {
+    "en": [ "Andorra", "Principality of Andorra" ],
+    "fr": "Andorre"
+  }
 },{
   "@id": "http://example.org/countries#AF",
   "country": "AF",
-  "name": [{
-    "value": "Afghanistan",
-    "lang": "en"
-  }, {
-    "value": "Afghanistan",
-    "lang": "fr"
-  }, {
-    "value": "Islamic Republic of Afghanistan",
-    "lang": "en"
-  }]
+  "name": {
+    "en": [ "Afghanistan", "Islamic Republic of Afghanistan" ],
+    "fr": "Afghanistan"
+  }
 }]
           </pre>
           <p>
@@ -835,10 +813,15 @@ url, ,   http://www.iana.org/assignments/relation/item
           As the result of this algorithm, multiple columns may be mapped to a single property. Where there are multiple columns mapping to a single property, that property is marked as <dfn title="expects arrays">expecting arrays</dfn>. If any of the columns comprising the property has a value within the <code>lang</code> prolog line, the property is marked as a <dfn>language property</dfn>.
         </p>
         <p>
-          Each sequence of data lines associated with the JSON object is processed as follows. A property is created within the JSON object for each property for which the data lines provide values (properties with no values are left undefined). If the property <a>expects arrays</a>, it will be assigned an array of values even if only one value is provided within the data lines. Each value is then processed as follows:
+          Each sequence of data lines associated with the JSON object is processed as follows. A property is created within the JSON object for each property for which the data lines provide values (properties with no values are left undefined).
+        </p>
+        <p>
+          If the property is a <a>language property</a>, it is mapped into an object with a property for each provided language. If the property <a>expects arrays</a>, the values of these properties will be arrays; otherwise the values will be plain strings.
+        </p>
+        <p>
+          If the property is not a <a>language property</a>, each value will be processed as follows. If it <a>expects arrays</a>, it will be assigned an array of values even if only one value is provided within the data lines.
         </p>
         <ol>
-          <li>if the property is a <a>language property</a>, it is mapped into an object with a property <code>value</code> and, if the column from which the value comes has a value in the <code>lang</code> prolog line, a <code>lang</code> property with that language</li>
           <li>if the value (as given by the <code>type</code> prolog line or inferred from the syntax of the value, as described in <a href="#property-types" class="sectionRef"></a>) is of the type <code>integer</code>, <code>decimal</code> or <code>double</code>, then if it is numeric, it is mapped to a number, otherwise to <code>null</code></li>
           <li>if the value is of the type <code>boolean</code>, if it has the value <code>true</code> or <code>false</code>, it is mapped to a boolean, otherwise to <code>null</code></li>
           <li>if the value is a year, it is mapped to a number</li>
