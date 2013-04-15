@@ -127,27 +127,12 @@ included; more is available from the bulk download Eurostat service.
 				<xsl:variable name="lang" as="xs:string" select="ancestor::Group[@type = 'language']/@value" />
 				<row>
 					<cell>meta</cell>
-					<cell>#col:<xsl:value-of select="count($headers) + 2" /></cell>
+					<cell>#col=<xsl:value-of select="count($headers) + 2" /></cell>
 					<cell>footnote</cell>
 					<cell><xsl:value-of select="$lang" /></cell>
 					<cell><xsl:value-of select="@value" /> = <xsl:apply-templates select="." mode="label" /></cell>
 					<cell>rdfs:comment</cell>
 				</row>
-			</xsl:for-each>
-			<xsl:for-each select="$flagrefs">
-				<xsl:variable name="row" as="xs:integer" select="count(../preceding::Cell) + 4 + count($footnotes) + (count($flagrefs) * count($languages))" />
-				<xsl:variable name="flag" as="element(Element)+" select="key('codes', @value, $information)" />
-				<xsl:for-each select="$flag">
-					<xsl:variable name="lang" as="xs:string" select="ancestor::Group[@type = 'language']/@value" />
-					<row>
-						<cell>meta</cell>
-						<cell>#cell:<xsl:value-of select="$row" />,<xsl:value-of select="count($headers) + 2" /></cell>
-						<cell>flag</cell>
-						<cell><xsl:value-of select="$lang" /></cell>
-						<cell><xsl:apply-templates select="." mode="label" /></cell>
-						<cell>rdfs:comment</cell>
-					</row>
-				</xsl:for-each>
 			</xsl:for-each>
 			<xsl:for-each select="../Grid//Cell">
 				<xsl:variable name="cell" as="element(Cell)" select="." />
@@ -166,6 +151,21 @@ included; more is available from the bulk download Eurostat service.
 					</xsl:for-each>
 					<cell><xsl:value-of select="@value" /></cell>
 				</row>
+			</xsl:for-each>
+			<xsl:for-each select="$flagrefs">
+				<xsl:variable name="row" as="xs:integer" select="count(../preceding::Cell) + 4 + count($footnotes)" />
+				<xsl:variable name="flag" as="element(Element)+" select="key('codes', @value, $information)" />
+				<xsl:for-each select="$flag">
+					<xsl:variable name="lang" as="xs:string" select="ancestor::Group[@type = 'language']/@value" />
+					<row>
+						<cell>meta</cell>
+						<cell>#cell=<xsl:value-of select="$row" />,<xsl:value-of select="count($headers) + 2" /></cell>
+						<cell>flag</cell>
+						<cell><xsl:value-of select="$lang" /></cell>
+						<cell><xsl:apply-templates select="." mode="label" /></cell>
+						<cell>rdfs:comment</cell>
+					</row>
+				</xsl:for-each>
 			</xsl:for-each>
 		</table>
 		<xsl:for-each select="$headers[@url = 'true']">

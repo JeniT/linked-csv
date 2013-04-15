@@ -79,7 +79,7 @@ AL,Albania
         The aim of processing a linked CSV file is to generate information about a set of entities. An <dfn>entity</dfn> may be represented internally by the application as an object or a resource. Each entity has a number of <dfn title="property">properties</dfn>, which may have one or more <dfn title="value">values</dfn>.
       </p>
       <p>
-        Records within a linked CSV file may be of two different types: <a title="prolog line">prolog lines</a> (see <a href="#prolog-lines" class="sectionRef"></a>) and <a title="data line">data lines</a>. Data lines can only come after the last prolog line, if there is one. A <dfn>data line</dfn> is a line that contains data about an entity. A single entity may be described across multiple data lines. For each data line describing an entity, each value within the line corresponds to a value of a property of that entity (the property being labelled through the corresponding header).
+        Records within a linked CSV file may be of three different types: <a title="prolog line">prolog lines</a> (see <a href="#prolog-lines" class="sectionRef"></a>), <a title="data line">data lines</a> and <a title="epilog line">epilog lines</a> (see <a href="#epilog-lines" class="sectionRef"></a>). Data lines can only come after the last prolog line, if there is one, and before the first epilog line, if there is one. A <dfn>data line</dfn> is a line that contains data about an entity. A single entity may be described across multiple data lines. For each data line describing an entity, each value within the line corresponds to a value of a property of that entity (the property being labelled through the corresponding header).
       </p>
       <p>
         The JSON version of this file, as defined in <a href="#json-mapping" class="sectionRef"></a>, is:
@@ -697,19 +697,6 @@ meta,license,                                 url, http://creativecommons.org/pu
   :year "1963"^^xsd:gYear ;
   :population 10188299 ]
           </pre>
-          <p>
-            Metadata prolog lines can also be used to provide metadata about other parts of the linked CSV file by using <a href="http://tools.ietf.org/html/draft-hausenblas-csv-fragment-00">URI Identifiers for the text/csv Media Type</a>. These can be used to refer to rows, columns, and sets of rows that have common value(s) for particular fields. For example:
-          </p>
-          <pre class="example highlight">
-#,   $id,                                     country,english name,                              french name
-url, ,                                        ,       #name,                                     #name
-lang,,                                        ,       en,                                        fr
-<strong>meta,#col:english%20name,                     note,   "contains both official and popular names",</strong>
-,    http://en.wikipedia.org/wiki/Andorra,    AD,     Andorra,                                   Andorre
-,    http://en.wikipedia.org/wiki/Andorra,    ,       Principality of Andorra,
-,    http://en.wikipedia.org/wiki/Afghanistan,AF,     Afghanistan,                               Afghanistan
-,    http://en.wikipedia.org/wiki/Afghanistan,,       Islamic Republic of Afghanistan,
-          </pre>
         </section>
 
         <section id="see-also">
@@ -749,6 +736,31 @@ lang,,                                        ,       en,                       
 ,    http://en.wikipedia.org/wiki/Afghanistan,,       Islamic Republic of Afghanistan,
           </pre>
         </section>
+      </section>
+      <section id="epilog-lines">
+        <h3>Epilog Lines</h3>
+        <p>
+          A linked CSV file can contain any number of epilog lines. <dfn title="epilog line">Epilog lines</dfn> provide additional metadata about the contents of the linked CSV file, typically annotations on its contents. Epilog lines can only be present if there is a column named <code>#</code>; any record after the first data line that has the value <code>meta</code> in that column is an epilog line. These lines are interpreted in the same way as metadata lines in the prolog, as described in <a href="#self-describing" class="sectionRef"></a>.
+        </p>
+        <p>
+          Epilog lines must appear at the end of the file. Any <a title="data line">data lines</a> that appear after the first epilog line must be ignored.
+        </p>
+        <p>
+          Metadata epilog lines can be used to provide metadata about other parts of the linked CSV file by using <a href="http://tools.ietf.org/html/draft-hausenblas-csv-fragment-03">URI Identifiers for the text/csv Media Type</a>. These can be used to refer to rows, columns, and sets of rows that have common value(s) for particular fields. For example:
+        </p>
+        <pre class="example highlight">
+#,   $id,                                     country,english name,                              french name
+url, ,                                        ,       #name,                                     #name
+lang,,                                        ,       en,                                        fr
+,    http://en.wikipedia.org/wiki/Andorra,    AD,     Andorra,                                   Andorre
+,    http://en.wikipedia.org/wiki/Andorra,    ,       Principality of Andorra,
+,    http://en.wikipedia.org/wiki/Afghanistan,AF,     Afghanistan,                               Afghanistan
+,    http://en.wikipedia.org/wiki/Afghanistan,,       Islamic Republic of Afghanistan,
+<strong>meta,#col=english%20name,                     note,   "contains both official and popular names",</strong>
+        </pre>
+        <p class="note">
+          Enabling metadata to appear at the end of the file helps when adding metadata about the rows or cells within the linked CSV using fragment identifiers. If these are added in the prolog, their addition causes the row number of the referenced cells to increment. Adding annotations at the bottom of the file avoids this problem.
+        </p>
       </section>
     </section>
 

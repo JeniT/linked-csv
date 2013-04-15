@@ -3,15 +3,9 @@ prop,,http://epp.eurostat.ec.europa.eu/def/tin00075#indic_is,http://epp.eurostat
 type,,url,url,time,
 see,,indic_is.csv,geo.csv,,
 meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tin00075.xml,dc:source
-meta,#col:5,footnote,en,: = not available,rdfs:comment
-meta,#col:5,footnote,fr,: = non disponible,rdfs:comment
-meta,#col:5,footnote,de,: = nicht verfügbar,rdfs:comment
-meta,"#cell:996,5",flag,en,unreliable,rdfs:comment
-meta,"#cell:996,5",flag,fr,non fiable,rdfs:comment
-meta,"#cell:996,5",flag,de,unzuverlässig,rdfs:comment
-meta,"#cell:1435,5",flag,en,unreliable,rdfs:comment
-meta,"#cell:1435,5",flag,fr,non fiable,rdfs:comment
-meta,"#cell:1435,5",flag,de,unzuverlässig,rdfs:comment
+meta,#col=5,footnote,en,: = not available,rdfs:comment
+meta,#col=5,footnote,fr,: = non disponible,rdfs:comment
+meta,#col=5,footnote,de,: = nicht verfügbar,rdfs:comment
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IHM,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2002,:
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IHM,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2003,:
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IHM,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2004,33
@@ -1452,3 +1446,9 @@ meta,"#cell:1435,5",flag,de,unzuverlässig,rdfs:comment
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IOTH,http://epp.eurostat.ec.europa.eu/def/geo#TR,2009,9
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IOTH,http://epp.eurostat.ec.europa.eu/def/geo#TR,2010,8
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IOTH,http://epp.eurostat.ec.europa.eu/def/geo#TR,2011,:
+meta,"#cell=990,5",flag,en,unreliable,rdfs:comment
+meta,"#cell=990,5",flag,fr,non fiable,rdfs:comment
+meta,"#cell=990,5",flag,de,unzuverlässig,rdfs:comment
+meta,"#cell=1429,5",flag,en,unreliable,rdfs:comment
+meta,"#cell=1429,5",flag,fr,non fiable,rdfs:comment
+meta,"#cell=1429,5",flag,de,unzuverlässig,rdfs:comment

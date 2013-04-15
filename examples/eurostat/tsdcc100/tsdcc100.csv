@@ -3,9 +3,9 @@ prop,,http://epp.eurostat.ec.europa.eu/def/tsdcc100#airpol,http://epp.eurostat.e
 type,,url,url,time,
 see,,airpol.csv,geo.csv,,
 meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tsdcc100.xml,dc:source
-meta,#col:5,footnote,en,: = not available,rdfs:comment
-meta,#col:5,footnote,fr,: = non disponible,rdfs:comment
-meta,#col:5,footnote,de,: = nicht verfügbar,rdfs:comment
+meta,#col=5,footnote,en,: = not available,rdfs:comment
+meta,#col=5,footnote,fr,: = non disponible,rdfs:comment
+meta,#col=5,footnote,de,: = nicht verfügbar,rdfs:comment
 ,,http://epp.eurostat.ec.europa.eu/def/airpol#5_1,http://epp.eurostat.ec.europa.eu/def/geo#EU27,1990,100
 ,,http://epp.eurostat.ec.europa.eu/def/airpol#5_1,http://epp.eurostat.ec.europa.eu/def/geo#EU27,1991,98
 ,,http://epp.eurostat.ec.europa.eu/def/airpol#5_1,http://epp.eurostat.ec.europa.eu/def/geo#EU27,1992,95
