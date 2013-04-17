@@ -2,10 +2,10 @@
 prop,,http://epp.eurostat.ec.europa.eu/def/tin00075#indic_is,http://epp.eurostat.ec.europa.eu/def/tin00075#geo,http://epp.eurostat.ec.europa.eu/def/tin00075#time,http://epp.eurostat.ec.europa.eu/def/tin00075#tin00075
 type,,url,url,time,
 see,,indic_is.csv,geo.csv,,
-meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tin00075.xml,dc:source
-meta,#col=5,footnote,en,: = not available,rdfs:comment
-meta,#col=5,footnote,fr,: = non disponible,rdfs:comment
-meta,#col=5,footnote,de,: = nicht verfügbar,rdfs:comment
+meta,,source,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tin00075.xml,url,dc:source
+meta,#col=5,footnote,: = not available,en,rdfs:comment
+meta,#col=5,footnote,: = non disponible,fr,rdfs:comment
+meta,#col=5,footnote,: = nicht verfügbar,de,rdfs:comment
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IHM,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2002,:
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IHM,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2003,:
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IHM,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2004,33
@@ -1446,9 +1446,9 @@ meta,#col=5,footnote,de,: = nicht verfügbar,rdfs:comment
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IOTH,http://epp.eurostat.ec.europa.eu/def/geo#TR,2009,9
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IOTH,http://epp.eurostat.ec.europa.eu/def/geo#TR,2010,8
 ,,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IOTH,http://epp.eurostat.ec.europa.eu/def/geo#TR,2011,:
-meta,"#cell=990,5",flag,en,unreliable,rdfs:comment
-meta,"#cell=990,5",flag,fr,non fiable,rdfs:comment
-meta,"#cell=990,5",flag,de,unzuverlässig,rdfs:comment
-meta,"#cell=1429,5",flag,en,unreliable,rdfs:comment
-meta,"#cell=1429,5",flag,fr,non fiable,rdfs:comment
-meta,"#cell=1429,5",flag,de,unzuverlässig,rdfs:comment
+meta,"#cell=990,5",flag,unreliable,en,rdfs:comment
+meta,"#cell=990,5",flag,non fiable,fr,rdfs:comment
+meta,"#cell=990,5",flag,unzuverlässig,de,rdfs:comment
+meta,"#cell=1429,5",flag,unreliable,en,rdfs:comment
+meta,"#cell=1429,5",flag,non fiable,fr,rdfs:comment
+meta,"#cell=1429,5",flag,unzuverlässig,de,rdfs:comment

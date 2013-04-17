@@ -2,10 +2,10 @@
 prop,,http://epp.eurostat.ec.europa.eu/def/t2020_50#unit,http://epp.eurostat.ec.europa.eu/def/t2020_50#geo,http://epp.eurostat.ec.europa.eu/def/t2020_50#time,http://epp.eurostat.ec.europa.eu/def/t2020_50#t2020_50
 type,,url,url,time,
 see,,unit.csv,geo.csv,,
-meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/t2020_50.xml,dc:source
-meta,#col=5,footnote,en,: = not available,rdfs:comment
-meta,#col=5,footnote,fr,: = non disponible,rdfs:comment
-meta,#col=5,footnote,de,: = nicht verfügbar,rdfs:comment
+meta,,source,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/t2020_50.xml,url,dc:source
+meta,#col=5,footnote,: = not available,en,rdfs:comment
+meta,#col=5,footnote,: = non disponible,fr,rdfs:comment
+meta,#col=5,footnote,: = nicht verfügbar,de,rdfs:comment
 ,,http://epp.eurostat.ec.europa.eu/def/unit#1000PERS,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2004,:
 ,,http://epp.eurostat.ec.europa.eu/def/unit#1000PERS,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2005,123892
 ,,http://epp.eurostat.ec.europa.eu/def/unit#1000PERS,http://epp.eurostat.ec.europa.eu/def/geo#EU27,2006,122688
@@ -534,51 +534,51 @@ meta,#col=5,footnote,de,: = nicht verfügbar,rdfs:comment
 ,,http://epp.eurostat.ec.europa.eu/def/unit#PC_POP,http://epp.eurostat.ec.europa.eu/def/geo#TR,2009,:
 ,,http://epp.eurostat.ec.europa.eu/def/unit#PC_POP,http://epp.eurostat.ec.europa.eu/def/geo#TR,2010,:
 ,,http://epp.eurostat.ec.europa.eu/def/unit#PC_POP,http://epp.eurostat.ec.europa.eu/def/geo#TR,2011,:
-meta,"#cell=8,5",flag,en,Eurostat estimate,rdfs:comment
-meta,"#cell=8,5",flag,fr,estimation Eurostat,rdfs:comment
-meta,"#cell=8,5",flag,de,Eurostat Schätzung,rdfs:comment
-meta,"#cell=9,5",flag,en,Eurostat estimate,rdfs:comment
-meta,"#cell=9,5",flag,fr,estimation Eurostat,rdfs:comment
-meta,"#cell=9,5",flag,de,Eurostat Schätzung,rdfs:comment
-meta,"#cell=14,5",flag,en,Eurostat estimate,rdfs:comment
-meta,"#cell=14,5",flag,fr,estimation Eurostat,rdfs:comment
-meta,"#cell=14,5",flag,de,Eurostat Schätzung,rdfs:comment
-meta,"#cell=27,5",flag,en,break in series,rdfs:comment
-meta,"#cell=27,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=27,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=91,5",flag,en,break in series,rdfs:comment
-meta,"#cell=91,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=91,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=107,5",flag,en,break in series,rdfs:comment
-meta,"#cell=107,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=107,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=115,5",flag,en,break in series,rdfs:comment
-meta,"#cell=115,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=115,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=171,5",flag,en,break in series,rdfs:comment
-meta,"#cell=171,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=171,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=272,5",flag,en,Eurostat estimate,rdfs:comment
-meta,"#cell=272,5",flag,fr,estimation Eurostat,rdfs:comment
-meta,"#cell=272,5",flag,de,Eurostat Schätzung,rdfs:comment
-meta,"#cell=273,5",flag,en,Eurostat estimate,rdfs:comment
-meta,"#cell=273,5",flag,fr,estimation Eurostat,rdfs:comment
-meta,"#cell=273,5",flag,de,Eurostat Schätzung,rdfs:comment
-meta,"#cell=278,5",flag,en,Eurostat estimate,rdfs:comment
-meta,"#cell=278,5",flag,fr,estimation Eurostat,rdfs:comment
-meta,"#cell=278,5",flag,de,Eurostat Schätzung,rdfs:comment
-meta,"#cell=291,5",flag,en,break in series,rdfs:comment
-meta,"#cell=291,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=291,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=355,5",flag,en,break in series,rdfs:comment
-meta,"#cell=355,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=355,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=371,5",flag,en,break in series,rdfs:comment
-meta,"#cell=371,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=371,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=379,5",flag,en,break in series,rdfs:comment
-meta,"#cell=379,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=379,5",flag,de,Zeitreihenbruch,rdfs:comment
-meta,"#cell=435,5",flag,en,break in series,rdfs:comment
-meta,"#cell=435,5",flag,fr,rupture de série,rdfs:comment
-meta,"#cell=435,5",flag,de,Zeitreihenbruch,rdfs:comment
+meta,"#cell=8,5",flag,Eurostat estimate,en,rdfs:comment
+meta,"#cell=8,5",flag,estimation Eurostat,fr,rdfs:comment
+meta,"#cell=8,5",flag,Eurostat Schätzung,de,rdfs:comment
+meta,"#cell=9,5",flag,Eurostat estimate,en,rdfs:comment
+meta,"#cell=9,5",flag,estimation Eurostat,fr,rdfs:comment
+meta,"#cell=9,5",flag,Eurostat Schätzung,de,rdfs:comment
+meta,"#cell=14,5",flag,Eurostat estimate,en,rdfs:comment
+meta,"#cell=14,5",flag,estimation Eurostat,fr,rdfs:comment
+meta,"#cell=14,5",flag,Eurostat Schätzung,de,rdfs:comment
+meta,"#cell=27,5",flag,break in series,en,rdfs:comment
+meta,"#cell=27,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=27,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=91,5",flag,break in series,en,rdfs:comment
+meta,"#cell=91,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=91,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=107,5",flag,break in series,en,rdfs:comment
+meta,"#cell=107,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=107,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=115,5",flag,break in series,en,rdfs:comment
+meta,"#cell=115,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=115,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=171,5",flag,break in series,en,rdfs:comment
+meta,"#cell=171,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=171,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=272,5",flag,Eurostat estimate,en,rdfs:comment
+meta,"#cell=272,5",flag,estimation Eurostat,fr,rdfs:comment
+meta,"#cell=272,5",flag,Eurostat Schätzung,de,rdfs:comment
+meta,"#cell=273,5",flag,Eurostat estimate,en,rdfs:comment
+meta,"#cell=273,5",flag,estimation Eurostat,fr,rdfs:comment
+meta,"#cell=273,5",flag,Eurostat Schätzung,de,rdfs:comment
+meta,"#cell=278,5",flag,Eurostat estimate,en,rdfs:comment
+meta,"#cell=278,5",flag,estimation Eurostat,fr,rdfs:comment
+meta,"#cell=278,5",flag,Eurostat Schätzung,de,rdfs:comment
+meta,"#cell=291,5",flag,break in series,en,rdfs:comment
+meta,"#cell=291,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=291,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=355,5",flag,break in series,en,rdfs:comment
+meta,"#cell=355,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=355,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=371,5",flag,break in series,en,rdfs:comment
+meta,"#cell=371,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=371,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=379,5",flag,break in series,en,rdfs:comment
+meta,"#cell=379,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=379,5",flag,Zeitreihenbruch,de,rdfs:comment
+meta,"#cell=435,5",flag,break in series,en,rdfs:comment
+meta,"#cell=435,5",flag,rupture de série,fr,rdfs:comment
+meta,"#cell=435,5",flag,Zeitreihenbruch,de,rdfs:comment

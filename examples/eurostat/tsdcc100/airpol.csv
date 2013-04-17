@@ -1,9 +1,9 @@
 ﻿#,$id,label (en),label (fr),label (de),
 prop,,rdfs:label,rdfs:label,rdfs:label,
 lang,,en,fr,de,
-meta,,title (en),en,Air pollution indicator,dc:title
-meta,,title (fr),fr,Indicateur de la pollution atmosphérique,dc:title
-meta,,title (de),de,Indikator für Luftverschmutzung,dc:title
-meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tsdcc100.xml,dc:source
+meta,,title (en),Air pollution indicator,en,dc:title
+meta,,title (fr),Indicateur de la pollution atmosphérique,fr,dc:title
+meta,,title (de),Indikator für Luftverschmutzung,de,dc:title
+meta,,source,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tsdcc100.xml,url,dc:source
 ,http://epp.eurostat.ec.europa.eu/def/airpol#5_1,Total Greenhouse Gas Emissions (in CO2 equivalent) indexed to 1990,"Indice d'émissions de gaz à effet de serre (en équivalent CO2), 1990 = 100",Gesamte Treibhausgasemissionen (CO2 Äquivalente) indiziert auf Basisjahr = 1990,
 ,http://epp.eurostat.ec.europa.eu/def/airpol#5_2,Total Greenhouse Gas Emissions (in CO2 equivalent) indexed to Kyoto base year,"Indice d'émissions de gaz à effet de serre (en équivalent CO2), année de base de Kyoto = 100",Gesamte Treibhausgasemissionen (CO2 Äquivalente) indiziert auf Kyoto Basisjahr,

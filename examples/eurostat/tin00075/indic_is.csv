@@ -1,10 +1,10 @@
 ﻿#,$id,label (en),label (fr),label (de),
 prop,,rdfs:label,rdfs:label,rdfs:label,
 lang,,en,fr,de,
-meta,,title (en),en,Information society indicator,dc:title
-meta,,title (fr),fr,Indicateur sur la société de l'information,dc:title
-meta,,title (de),de,Indikator zur Informationsgesellschaft,dc:title
-meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tin00075.xml,dc:source
+meta,,title (en),Information society indicator,en,dc:title
+meta,,title (fr),Indicateur sur la société de l'information,fr,dc:title
+meta,,title (de),Indikator zur Informationsgesellschaft,de,dc:title
+meta,,source,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tin00075.xml,url,dc:source
 ,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IHM,Internet access at home,Accès à Internet à domicile,Internetzugang zuhause,
 ,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IWRK,Internet access at place of work,Accès à Internet sur le lieu de travail,Internetzugang am Arbeitsplatz,
 ,http://epp.eurostat.ec.europa.eu/def/indic_is#I_IED,Internet access at place of education,Accès à Internet sur le lieu de formation,Internetzugang in der Bildungseinrichtung,

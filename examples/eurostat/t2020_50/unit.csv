@@ -1,9 +1,9 @@
 ﻿#,$id,label (en),label (fr),label (de),
 prop,,rdfs:label,rdfs:label,rdfs:label,
 lang,,en,fr,de,
-meta,,title (en),en,Unit,dc:title
-meta,,title (fr),fr,Unité,dc:title
-meta,,title (de),de,Einheit,dc:title
-meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/t2020_50.xml,dc:source
+meta,,title (en),Unit,en,dc:title
+meta,,title (fr),Unité,fr,dc:title
+meta,,title (de),Einheit,de,dc:title
+meta,,source,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/t2020_50.xml,url,dc:source
 ,http://epp.eurostat.ec.europa.eu/def/unit#1000PERS,1000 persons,1000 personnes,1000 Personen,
 ,http://epp.eurostat.ec.europa.eu/def/unit#PC_POP,Percentage of total population,Pourcentage de la population totale,Prozent der Bevölkerung insgesamt,

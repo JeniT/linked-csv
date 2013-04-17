@@ -1,10 +1,10 @@
 ﻿#,$id,label (en),label (fr),label (de),
 prop,,rdfs:label,rdfs:label,rdfs:label,
 lang,,en,fr,de,
-meta,,title (en),en,Geopolitical entity (declaring),dc:title
-meta,,title (fr),fr,Entité géopolitique (déclarante),dc:title
-meta,,title (de),de,Geopolitische Meldeeinheit,dc:title
-meta,,source,url,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tin00075.xml,dc:source
+meta,,title (en),Geopolitical entity (declaring),en,dc:title
+meta,,title (fr),Entité géopolitique (déclarante),fr,dc:title
+meta,,title (de),Geopolitische Meldeeinheit,de,dc:title
+meta,,source,http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/tin00075.xml,url,dc:source
 ,http://epp.eurostat.ec.europa.eu/def/geo#EU27,EU (27 countries),UE (27 pays),EU (27 Länder),
 ,http://epp.eurostat.ec.europa.eu/def/geo#EA,Euro area (changing composition),Zone euro (composition variable),Euroraum (wechselnde Zusammensetzung),
 ,http://epp.eurostat.ec.europa.eu/def/geo#BE,Belgium,Belgique,Belgien,

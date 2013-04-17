@@ -119,8 +119,8 @@ included; more is available from the bulk download Eurostat service.
 				<cell>meta</cell>
 				<cell></cell>
 				<cell>source</cell>
-				<cell>url</cell>
 				<cell>http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/<xsl:value-of select="$context" />.xml</cell>
+				<cell>url</cell>
 				<cell>dc:source</cell>
 			</row>
 			<xsl:for-each select="$footnotes">
@@ -129,8 +129,8 @@ included; more is available from the bulk download Eurostat service.
 					<cell>meta</cell>
 					<cell>#col=<xsl:value-of select="count($headers) + 2" /></cell>
 					<cell>footnote</cell>
-					<cell><xsl:value-of select="$lang" /></cell>
 					<cell><xsl:value-of select="@value" /> = <xsl:apply-templates select="." mode="label" /></cell>
+					<cell><xsl:value-of select="$lang" /></cell>
 					<cell>rdfs:comment</cell>
 				</row>
 			</xsl:for-each>
@@ -161,8 +161,8 @@ included; more is available from the bulk download Eurostat service.
 						<cell>meta</cell>
 						<cell>#cell=<xsl:value-of select="$row" />,<xsl:value-of select="count($headers) + 2" /></cell>
 						<cell>flag</cell>
-						<cell><xsl:value-of select="$lang" /></cell>
 						<cell><xsl:apply-templates select="." mode="label" /></cell>
+						<cell><xsl:value-of select="$lang" /></cell>
 						<cell>rdfs:comment</cell>
 					</row>
 				</xsl:for-each>
@@ -200,8 +200,8 @@ included; more is available from the bulk download Eurostat service.
 						<cell>meta</cell>
 						<cell></cell>
 						<cell>title (<xsl:value-of select="$lang" />)</cell>
-						<cell><xsl:value-of select="$lang" /></cell>
 						<cell><xsl:apply-templates select="." mode="label" /></cell>
+						<cell><xsl:value-of select="$lang" /></cell>
 						<cell>dc:title</cell>
 					</row>
 				</xsl:for-each>
@@ -209,8 +209,8 @@ included; more is available from the bulk download Eurostat service.
 					<cell>meta</cell>
 					<cell></cell>
 					<cell>source</cell>
-					<cell>url</cell>
 					<cell>http://epp.eurostat.ec.europa.eu/cache/ITY_FIXDST/<xsl:value-of select="$context" />.xml</cell>
+					<cell>url</cell>
 					<cell>dc:source</cell>
 				</row>
 				<xsl:for-each select="$codes">
