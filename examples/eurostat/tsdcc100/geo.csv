@@ -1,5 +1,5 @@
 ﻿#,$id,label (en),label (fr),label (de),
-prop,,rdfs:label,rdfs:label,rdfs:label,
+url,,rdfs:label,rdfs:label,rdfs:label,
 lang,,en,fr,de,
 meta,,title (en),Geopolitical entity (declaring),en,dc:title
 meta,,title (fr),Entité géopolitique (déclarante),fr,dc:title

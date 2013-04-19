@@ -181,7 +181,7 @@ included; more is available from the bulk download Eurostat service.
 					</xsl:for-each>
 				</row>
 				<row>
-					<cell>prop</cell>
+					<cell>url</cell>
 					<cell></cell>
 					<xsl:for-each select="$languages">
 						<cell>rdfs:label</cell>

@@ -1,5 +1,5 @@
 ﻿#,$id,label (en),label (fr),label (de),
-prop,,rdfs:label,rdfs:label,rdfs:label,
+url,,rdfs:label,rdfs:label,rdfs:label,
 lang,,en,fr,de,
 meta,,title (en),Air pollution indicator,en,dc:title
 meta,,title (fr),Indicateur de la pollution atmosphérique,fr,dc:title

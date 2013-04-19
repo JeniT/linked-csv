@@ -1,5 +1,5 @@
 ﻿#,$id,label (en),label (fr),label (de),
-prop,,rdfs:label,rdfs:label,rdfs:label,
+url,,rdfs:label,rdfs:label,rdfs:label,
 lang,,en,fr,de,
 meta,,title (en),Information society indicator,en,dc:title
 meta,,title (fr),Indicateur sur la société de l'information,fr,dc:title
